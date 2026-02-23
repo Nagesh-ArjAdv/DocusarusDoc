@@ -1,0 +1,27 @@
+<svg width="500" height="400" viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Clouds -->
+<path d="M130 240
+C120 215,150 200,175 210
+C185 185,240 195,235 225
+C270 225,275 255,240 260
+H150
+C120 260,120 240,130 240Z" fill="#0EA5E9"></path>
+
+<path d="M270 220
+C260 195,290 180,315 190
+C325 165,380 175,375 205
+C410 205,415 235,380 240
+H290
+C260 240,260 220,270 220Z" fill="#FDEA00"></path>
+
+<!-- Sync -->
+<path d="M200 190 A70 70 0 0 1 300 190" stroke="#0B3A53" stroke-width="5" fill="none"></path>
+
+<polygon points="300,190 285,180 285,200" fill="#0B3A53"></polygon>
+
+<path d="M300 270 A70 70 0 0 1 200 270" stroke="#0B3A53" stroke-width="5" fill="none"></path>
+
+<polygon points="200,270 215,260 215,280" fill="#0B3A53"></polygon>
+
+</svg>

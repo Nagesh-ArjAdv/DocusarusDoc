@@ -1,0 +1,296 @@
+:root {
+  /* Primary Brand (Yellow) */
+  --ifm-color-primary: #fdea00;
+  --ifm-color-primary-dark: #e6d100;
+  --ifm-color-primary-darker: #c4b000;
+  --ifm-color-primary-darkest: #9c8d00;
+
+  --ifm-color-primary-light: #fff233;
+  --ifm-color-primary-lighter: #fff566;
+  --ifm-color-primary-lightest: #fff89a;
+
+  /* Background & Text */
+  --ifm-background-color: #ffffff;
+  --ifm-font-color-base: #000000;
+  --ifm-heading-color: #000000;
+
+  /* Navbar */
+  --ifm-navbar-background-color: #000000;
+  --ifm-navbar-link-color: #ffffff;
+  --ifm-navbar-link-hover-color: #fdea00;
+
+  /* Footer */
+  --ifm-footer-background-color: #000000;
+  --ifm-footer-color: #ffffff;
+
+  /* Links */
+  --ifm-link-color: #c4b000;
+  --ifm-link-hover-color: #9c8d00;
+
+  /* Code Blocks */
+  --docusaurus-highlighted-code-line-bg: rgba(253, 234, 0, 0.2);
+}
+
+
+html[data-theme='dark'] {
+  /* Primary Brand (Yellow stays same) */
+  --ifm-color-primary: #fdea00;
+  --ifm-color-primary-dark: #e6d100;
+  --ifm-color-primary-darker: #c4b000;
+
+  /* Background & Text */
+  --ifm-background-color: #0b0b0b;
+  --ifm-font-color-base: #f5f5f5;
+  --ifm-heading-color: #ffffff;
+
+  /* Navbar */
+  --ifm-navbar-background-color: #000000;
+  --ifm-navbar-link-color: #eaeaea;
+  --ifm-navbar-link-hover-color: #fdea00;
+
+  /* Footer */
+  --ifm-footer-background-color: #000000;
+  --ifm-footer-color: #eaeaea;
+
+  /* Links */
+  --ifm-link-color: #fdea00;
+  --ifm-link-hover-color: #fff566;
+
+  /* Code Blocks */
+  --docusaurus-highlighted-code-line-bg: rgba(253, 234, 0, 0.15);
+}
+
+.button.button--primary {
+  background-color: #000000;
+  color: #fdea00;
+  border: 2px solid #fdea00;
+}
+
+.button.button--primary:hover {
+  background-color: #fdea00;
+  color: #000000;
+  border-color: #000000;
+}
+
+.menu__link--active {
+  color: #fdea00;
+  font-weight: 600;
+}
+table thead tr {
+  background-color: rgba(253, 234, 0, 0.15);
+}
+.theme-code-block {
+  border-left: 4px solid #fdea00;
+}
+
+/* DeliveryHub Feature Table */
+
+.feature-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.feature-table td {
+  border: 1px solid rgba(0,0,0,0.1);
+  padding: 20px;
+  font-size: 16px;
+}
+
+.feature-table td:first-child {
+  background: #000000;        /* matches your brand */
+  color: #fdea00;             /* primary yellow */
+  font-weight: 600;
+  text-align: center;
+  width: 30%;
+}
+
+.feature-table td:last-child {
+  background: #ffffff;
+  color: #000000;
+}
+
+/* Dark mode support */
+html[data-theme='dark'] .feature-table td:last-child {
+  background: #0b0b0b;
+  color: #f5f5f5;
+}
+
+html[data-theme='dark'] .feature-table td {
+  border-color: rgba(255,255,255,0.1);
+}
+
+/* Light Mode - Dark text on white background */
+.menu__link {
+  color: #000000 !important;  /* Black text */
+  font-weight: 500;
+}
+
+.menu__link:hover {
+  background-color: rgba(253, 234, 0, 0.1);  /* Light yellow highlight */
+  color: #000000 !important;
+}
+
+/* Active link - use darker yellow or add background */
+.menu__link--active {
+  color: #000000 !important;
+  background-color: #fdea00;  /* Yellow background with black text */
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+/* Category headers */
+.menu__list-item-collapsible > .menu__link {
+  color: #000000 !important;
+  font-weight: 700;
+}
+
+/* Dark Mode - Light/Yellow text on dark background */
+html[data-theme='dark'] .menu__link {
+  color: #f5f5f5 !important;
+}
+
+html[data-theme='dark'] .menu__link:hover {
+  color: #fdea00 !important;
+  background-color: rgba(253, 234, 0, 0.1);
+}
+
+html[data-theme='dark'] .menu__link--active {
+  color: #fdea00 !important;
+  background-color: rgba(253, 234, 0, 0.15);
+  font-weight: 600;
+}
+
+html[data-theme='dark'] .menu__list-item-collapsible > .menu__link {
+  color: #fdea00 !important;
+}
+
+/* Fix Breadcrumbs - Light Mode */
+.breadcrumbs__link,
+.breadcrumbs__item--active {
+  color: #000000 !important;  /* Black text instead of yellow */
+}
+
+.breadcrumbs__link:hover {
+  color: #c4b000 !important;
+  background-color: rgba(253, 234, 0, 0.1);
+}
+
+/* Dark Mode Breadcrumbs */
+html[data-theme='dark'] .breadcrumbs__link,
+html[data-theme='dark'] .breadcrumbs__item--active {
+  color: #f5f5f5 !important;
+}
+
+html[data-theme='dark'] .breadcrumbs__link:hover {
+  color: #fdea00 !important;
+}
+/* Make Dark/Light Mode Toggle Always Visible */
+
+/* Light Mode - Make toggle stand out on black navbar */
+button[class*="toggle"],
+button[class*="colorModeToggle"] {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Ensure the toggle icon is visible in light mode */
+.navbar__toggle {
+  opacity: 1 !important;
+}
+
+/* Make the moon/sun icons more visible */
+html[data-theme='light'] button[class*="toggle"] svg,
+html[data-theme='light'] button[class*="colorModeToggle"] svg {
+  color: #fdea00 !important;  /* Yellow icon on black navbar */
+}
+
+html[data-theme='dark'] button[class*="toggle"] svg,
+html[data-theme='dark'] button[class*="colorModeToggle"] svg {
+  color: #fdea00 !important;  /* Yellow icon on black navbar */
+}
+
+/* Hover state */
+button[class*="toggle"]:hover svg,
+button[class*="colorModeToggle"]:hover svg {
+  color: #fff566 !important;  /* Lighter yellow on hover */
+}
+/* Data Products Page Styles */
+
+.hero-banner {
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, rgba(253, 234, 0, 0.1), rgba(253, 234, 0, 0.05));
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+.hero-banner h2 {
+  margin: 0;
+  color: #000000;
+  font-size: 2rem;
+}
+
+html[data-theme='dark'] .hero-banner h2 {
+  color: #fdea00;
+}
+
+.workflow-steps {
+  counter-reset: step-counter;
+  padding: 2rem 0;
+}
+
+.workflow-steps > div,
+.workflow-steps > p {
+  counter-increment: step-counter;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  background: rgba(253, 234, 0, 0.05);
+  border-left: 4px solid #fdea00;
+  border-radius: 4px;
+  position: relative;
+}
+
+.workflow-steps > div::before,
+.workflow-steps > p::before {
+  content: counter(step-counter);
+  position: absolute;
+  left: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #fdea00;
+  color: #000000;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.cta-banner {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: #000000;
+  color: #fdea00;
+  border-radius: 12px;
+  margin: 3rem 0;
+}
+
+.cta-banner h3 {
+  margin-top: 0;
+  color: #fdea00;
+  font-size: 1.8rem;
+}
+
+.cta-banner p {
+  margin-bottom: 0;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+html[data-theme='dark'] .cta-banner {
+  background: #1a1a1a;
+  border: 2px solid #fdea00;
+}
