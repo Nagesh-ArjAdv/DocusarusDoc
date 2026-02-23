@@ -214,7 +214,7 @@ button[class*="toggle"]:hover svg,
 button[class*="colorModeToggle"]:hover svg {
   color: #fff566 !important;  /* Lighter yellow on hover */
 }
-/* Data Products Page Styles */
+/* Data Products / Hubhouse Page Styles */
 
 .hero-banner {
   text-align: center;
@@ -293,4 +293,54 @@ html[data-theme='dark'] .hero-banner h2 {
 html[data-theme='dark'] .cta-banner {
   background: #1a1a1a;
   border: 2px solid #fdea00;
+}
+
+/* Feature grid used across docs */
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.feature-item {
+  display: flex;
+  align-items: flex-start;
+  padding: 1.25rem 1.5rem;
+  border-radius: 8px;
+  background: rgba(253, 234, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+html[data-theme='dark'] .feature-item {
+  border-color: rgba(255, 255, 255, 0.12);
+  background: rgba(253, 234, 0, 0.03);
+}
+
+.feature-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  margin-right: 0.75rem;
+  border-radius: 50%;
+  background: #fdea00;
+  color: #000000;
+  font-size: 1.25rem;
+}
+
+.feature-item p {
+  margin: 0.15rem 0 0;
+}
+
+/* Checklists used in tabs */
+.checklist {
+  margin: 1rem 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.checklist li {
+  margin: 0.35rem 0;
 }
