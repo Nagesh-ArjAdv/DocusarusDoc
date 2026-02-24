@@ -3,47 +3,103 @@ id: what-is-a-hubhouse-table
 title: What is a Hubhouse Table?
 ---
 
-# What is a [Hubhouse Table](#)?
-A Hubhouse Table is DeliveryHub's managed, analytic-ready replica of your source data. Think of it as a golden copy—we keep it up to date, store it in our infrastructure, and make it available for you to filter, transform, and share without touching your source again.
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import Admonition from '@theme/Admonition';
 
-![hubhose table](\img\hubhousetable.png)
+# Hubhouse Tables in DeliveryHub
 
----
-## [Why](#) Hubhouse Tables exist
-Moving data directly from source to destination works fine—but every transfer means 
-reconnecting, re-extracting, and re-processing from scratch. That can:
+<div className="hero-banner">
+  <h2>Your Golden Copies for Reusable Delivery</h2>
+</div>
 
-* Increase egress costs
+<Admonition type="info" icon="📊" title="Golden, Managed Tables">
+A **Hubhouse Table** is DeliveryHub's managed, analytic-ready replica of your source data.  
+Think of it as a **golden copy**—we keep it up to date, store it in our infrastructure, and make it available for you to filter, transform, and share without touching your source again.
+</Admonition>
 
-* Slow down delivery times
-
-* Limit the ability to reuse or repurpose data
-
-A Hubhouse Table solves this by creating a single, central copy in Deliveryhub. From there, you can distribute it to any number of destinations via [Data Products](#) without 
-re-pulling from the source each time.
+![hubhouse table](/img/hubhousetable.png)
 
 ---
-## [How](#how-deliveryhub-works) DeliveryHub Works
-DeliveryHub transforms your source data into targeted, filtered datasets for different destinations—without moving or copying your original data.
 
-The Flow:
+## Why Hubhouse Tables Exist
 
-1️⃣ Source: Sales Prospects Upload Table
-Your complete, raw dataset stored in DeliveryHub's Hubhouse.
+<Tabs>
+  <TabItem value="efficiency" label="💸 Cost & Efficiency" default>
+    Moving data directly from source to destination works, but every transfer means reconnecting,
+    re-extracting, and re-processing from scratch. That can increase **egress costs**, slow delivery,
+    and limit reuse.
+  </TabItem>
 
-2️⃣ Filter & Transform
-Create smart views using DeliveryHub's filtering engine:
+  <TabItem value="reuse" label="♻️ Reuse & Consistency">
+    A Hubhouse Table creates a single, central copy in DeliveryHub. From there, you can distribute it
+    to any number of destinations via Data Products **without re-pulling from the source each time**.
+  </TabItem>
 
-"Free Customers Table (US)" - Filter by customer tier and region
-"Customers from Year 2025" - Filter by date range
+  <TabItem value="governance" label="🛡 Governance">
+    Because Hubhouse Tables live in one place, you get consistent governance, quality checks,
+    and schema management across all downstream products and destinations.
+  </TabItem>
+</Tabs>
 
-3️⃣ Deliver to Multiple Destinations
-Share these filtered views to:
+---
 
-🔵 AWS/Cloud Storage (top left)
+## How Hubhouse Tables Work
 
-🔴 Redis/Cache Layer (top right)
+DeliveryHub transforms your source data into targeted, filtered datasets for different destinations—without moving or copying your original systems every time.
 
-🧩 Databricks/Analytics (bottom left)
+```text
+Sources → Hubhouse Tables → Data Products → Destinations
+```
 
-❄️ Snowflake/Data Warehouse (bottom right)
+<div className="workflow-steps">
+
+1. **📥 Ingest from Source**  
+   Connect to operational systems, warehouses, or files and load data into Hubhouse.
+
+2. **🏗 Model as Hubhouse Tables**  
+   Normalize, partition, and organize data into analytic-ready tables.
+
+3. **✂️ Attach Data Products**  
+   Build filtered/joined views that represent exactly what different consumers need.
+
+4. **🚚 Deliver to Destinations**  
+   Use DeliveryHub fulfillment to send those products to warehouses, lakes, caches, APIs, and partner systems.
+
+</div>
+
+---
+
+## Key Capabilities
+
+<div className="feature-table">
+
+| Capability | What You Can Do |
+|-----------|-----------------|
+| **Central Golden Copy** | Maintain one trusted, analytic-ready replica of your source data in Hubhouse. |
+| **Reuse Across Products** | Feed many Data Products and destinations without re-extracting from the source. |
+| **Schema & Quality Management** | Control schemas, validations, and evolution in a single place. |
+| **Performance Optimization** | Store data in formats and layouts optimized for analytics and delivery patterns. |
+
+</div>
+
+---
+
+## Example Flow
+
+The classic example is a **Sales Prospects Upload Table**:
+
+- Raw uploads land in Hubhouse as a **Hubhouse Table**.  
+- You define Data Products such as:  
+  - "Free Customers Table (US)" – filtered by tier and region  
+  - "Customers from Year 2025" – filtered by date range  
+- DeliveryHub then fulfills those products to multiple destinations (e.g., AWS storage, Redis cache, Databricks, Snowflake) without ever reconnecting to the original source.
+
+---
+
+## Related Docs
+
+- [What is Hubhouse](/docs/hubhouse/what-is-hubhouse)
+- [What are Data Products](/docs/hubhouse/what-are-data-products)
+- [What is Data Fulfillment](/docs/hubhouse/what-is-data-fulfillment)
+- [Backfilling in Hubhouse](/docs/hubhouse/backfilling-in-hubhouse)
