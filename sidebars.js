@@ -88,7 +88,7 @@ module.exports = {
   label: 'Sources',
   link: {
     type: 'doc',
-    id: 'Sources/index',  // The index page
+    id: 'Sources/index',
   },
   items: [
     {
@@ -96,7 +96,7 @@ module.exports = {
       label: 'Amazon S3',
       link: {
         type: 'doc',
-        id: 'Sources/Amazon-s3',  // Main overview page
+        id: 'Sources/Amazon-s3',
       },
       items: [
         {
@@ -106,11 +106,81 @@ module.exports = {
         },
       ],
     },
-    'Sources/Azure-object-storage',
-    'Sources/Google-cloud-storage',
-    'Sources/Sftp',
-    'Sources/Bigquery',
-    'Sources/Snowflake',
+    {
+      type: 'category',
+      label: 'Azure Object Storage',
+      link: {
+        type: 'doc',
+        id: 'Sources/Azure-object-storage',
+      },
+      items: [
+        {
+          type: 'doc',
+          id: 'Sources/Azure-object-storage/setup-guide/index',
+          label: 'Setup guide',
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Google Cloud Storage',
+      link: {
+        type: 'doc',
+        id: 'Sources/Google-cloud-storage',
+      },
+      items: [
+        {
+          type: 'doc',
+          id: 'Sources/Google-cloud-storage/setup-guide/index',
+          label: 'Setup guide',
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'SFTP',
+      link: {
+        type: 'doc',
+        id: 'Sources/Sftp',
+      },
+      items: [
+        {
+          type: 'doc',
+          id: 'Sources/Sftp/setup-guide/index',
+          label: 'Setup guide',
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'BigQuery',
+      link: {
+        type: 'doc',
+        id: 'Sources/Bigquery',
+      },
+      items: [
+        {
+          type: 'doc',
+          id: 'Sources/Bigquery/setup-guide/index',
+          label: 'Setup guide',
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Snowflake',
+      link: {
+        type: 'doc',
+        id: 'Sources/Snowflake',
+      },
+      items: [
+        {
+          type: 'doc',
+          id: 'Sources/Snowflake/setup-guide/index',
+          label: 'Setup guide',
+        },
+      ],
+    },
   ],
 },
 {
