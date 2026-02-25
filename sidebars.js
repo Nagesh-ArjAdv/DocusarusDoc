@@ -91,7 +91,21 @@ module.exports = {
     id: 'Sources/index',  // The index page
   },
   items: [
-    'Sources/Amazon-s3',
+    {
+      type: 'category',
+      label: 'Amazon S3',
+      link: {
+        type: 'doc',
+        id: 'Sources/Amazon-s3',  // Main overview page
+      },
+      items: [
+        {
+          type: 'doc',
+          id: 'Sources/Amazon-s3/setup-guide/index',
+          label: 'Setup guide',
+        },
+      ],
+    },
     'Sources/Azure-object-storage',
     'Sources/Google-cloud-storage',
     'Sources/Sftp',
