@@ -1,6 +1,6 @@
 module.exports = {
   tutorialSidebar: [
-       {
+    {
       type: 'category',
       label: 'Welcome',
       items: [
@@ -68,139 +68,83 @@ module.exports = {
       ],
     },
 
-    'glossary',
-    'release-phases',
+    {
+      type: 'category',
+      label: 'Sources',
+      link: {
+        type: 'doc',
+        id: 'Sources/index',
+      },
+      items: [
+        {
+          type: 'category',
+          label: 'Amazon S3',
+          link: { type: 'doc', id: 'Sources/Amazon-s3' },
+          items: [
+            { type: 'doc', id: 'Sources/Amazon-s3/setup-guide/index', label: 'Setup guide' },
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Azure Object Storage',
+          link: { type: 'doc', id: 'Sources/Azure-object-storage' },
+          items: [
+            { type: 'doc', id: 'Sources/Azure-object-storage/setup-guide/index', label: 'Setup guide' },
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Google Cloud Storage',
+          link: { type: 'doc', id: 'Sources/Google-cloud-storage' },
+          items: [
+            { type: 'doc', id: 'Sources/Google-cloud-storage/setup-guide/index', label: 'Setup guide' },
+          ],
+        },
+        {
+          type: 'category',
+          label: 'SFTP',
+          link: { type: 'doc', id: 'Sources/Sftp' },
+          items: [
+            { type: 'doc', id: 'Sources/Sftp/setup-guide/index', label: 'Setup guide' },
+          ],
+        },
+        {
+          type: 'category',
+          label: 'BigQuery',
+          link: { type: 'doc', id: 'Sources/Bigquery' },
+          items: [
+            { type: 'doc', id: 'Sources/Bigquery/setup-guide/index', label: 'Setup guide' },
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Snowflake',
+          link: { type: 'doc', id: 'Sources/Snowflake' },
+          items: [
+            { type: 'doc', id: 'Sources/Snowflake/setup-guide/index', label: 'Setup guide' },
+          ],
+        },
+      ],
+    },
 
-   {
-  type: 'category',
-  label: 'Concepts',
-  link: {
-    type: 'doc',
-    id: 'concepts/index',  // The index page
-  },
-  items: [
-    // Don't list 'concepts/index' here - it's already the category link
-    // Add other concept pages here if you have them
-  ],
-},
-{
-  type: 'category',
-  label: 'Sources',
-  link: {
-    type: 'doc',
-    id: 'Sources/index',
-  },
-  items: [
     {
       type: 'category',
-      label: 'Amazon S3',
+      label: 'Destinations',
       link: {
         type: 'doc',
-        id: 'Sources/Amazon-s3',
+        id: 'Destinations/index',
       },
       items: [
-        {
-          type: 'doc',
-          id: 'Sources/Amazon-s3/setup-guide/index',
-          label: 'Setup guide',
-        },
+        'Destinations/Amazon-s3',
+        'Destinations/Azure-blob-storage',
+        'Destinations/Google-cloud-storage',
+        'Destinations/Sftp',
+        'Destinations/Redshift',
+        'Destinations/Databricks',
+        'Destinations/Bigquery',
+        'Destinations/Snowflake',
       ],
     },
-    {
-      type: 'category',
-      label: 'Azure Object Storage',
-      link: {
-        type: 'doc',
-        id: 'Sources/Azure-object-storage',
-      },
-      items: [
-        {
-          type: 'doc',
-          id: 'Sources/Azure-object-storage/setup-guide/index',
-          label: 'Setup guide',
-        },
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Google Cloud Storage',
-      link: {
-        type: 'doc',
-        id: 'Sources/Google-cloud-storage',
-      },
-      items: [
-        {
-          type: 'doc',
-          id: 'Sources/Google-cloud-storage/setup-guide/index',
-          label: 'Setup guide',
-        },
-      ],
-    },
-    {
-      type: 'category',
-      label: 'SFTP',
-      link: {
-        type: 'doc',
-        id: 'Sources/Sftp',
-      },
-      items: [
-        {
-          type: 'doc',
-          id: 'Sources/Sftp/setup-guide/index',
-          label: 'Setup guide',
-        },
-      ],
-    },
-    {
-      type: 'category',
-      label: 'BigQuery',
-      link: {
-        type: 'doc',
-        id: 'Sources/Bigquery',
-      },
-      items: [
-        {
-          type: 'doc',
-          id: 'Sources/Bigquery/setup-guide/index',
-          label: 'Setup guide',
-        },
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Snowflake',
-      link: {
-        type: 'doc',
-        id: 'Sources/Snowflake',
-      },
-      items: [
-        {
-          type: 'doc',
-          id: 'Sources/Snowflake/setup-guide/index',
-          label: 'Setup guide',
-        },
-      ],
-    },
-  ],
-},
-{
-  type: 'category',
-  label: 'Destinations',
-  link: {
-    type: 'doc',
-    id: 'Destinations/index',  // The index page
-  },
-  items: [
-    'Destinations/Amazon-s3',
-    'Destinations/Azure-blob-storage',
-    'Destinations/Google-cloud-storage',
-    'Destinations/Sftp',
-    'Destinations/Redshift',
-    'Destinations/Databricks',
-    'Destinations/Bigquery',
-    'Destinations/Snowflake',
-  ],
-},
-    
+
   ],
 };

@@ -5,6 +5,7 @@ title: Sources
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import Admonition from '@theme/Admonition';
+import ThemedImage from '@theme/ThemedImage';
 
 # Sources in DeliveryHub
 
@@ -16,6 +17,19 @@ import Admonition from '@theme/Admonition';
 **Sources** are how data first enters DeliveryHub.  
 You connect operational systems, files, and platforms to create **Hubhouse Tables** that power Data Products and downstream fulfillment.
 </Admonition>
+
+
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+  <ThemedImage
+    alt="Data source to DeliveryHub flow"
+    sources={{
+      light: '/img/data-source-flow.svg',
+      dark: '/img/data-source-flow-dark.svg',
+    }}
+    style={{maxWidth: '100%', maxHeight: '300px'}}
+  />
+</div>
 
 ---
 
