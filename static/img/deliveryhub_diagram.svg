@@ -1,0 +1,231 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#050D1F"/>
+      <stop offset="100%" style="stop-color:#0A1628"/>
+    </linearGradient>
+
+    <!-- DeliveryHub card glow -->
+    <linearGradient id="dhCardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F2040"/>
+      <stop offset="100%" style="stop-color:#0A1830"/>
+    </linearGradient>
+
+    <!-- Consumer card gradient -->
+    <linearGradient id="consumerCardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F2040"/>
+      <stop offset="100%" style="stop-color:#0A1830"/>
+    </linearGradient>
+
+    <!-- Arrow/pipe gradient -->
+    <linearGradient id="arrowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00BFFF"/>
+      <stop offset="100%" style="stop-color:#00E5A0"/>
+    </linearGradient>
+
+    <!-- Warehouse mini gradient -->
+    <linearGradient id="warehouseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F2A3A"/>
+      <stop offset="100%" style="stop-color:#0A1E2E"/>
+    </linearGradient>
+
+    <!-- Storage mini gradient -->
+    <linearGradient id="storageGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0A2A20"/>
+      <stop offset="100%" style="stop-color:#071A15"/>
+    </linearGradient>
+
+    <!-- Logo gradient -->
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00BFFF"/>
+      <stop offset="100%" style="stop-color:#0066FF"/>
+    </linearGradient>
+
+    <!-- Outer glow filter -->
+    <filter id="glowBlue" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="glowGreen" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="cardShadow">
+      <feDropShadow dx="0" dy="8" stdDeviation="20" flood-color="#00BFFF" flood-opacity="0.12"/>
+    </filter>
+    <filter id="cardShadowGreen">
+      <feDropShadow dx="0" dy="8" stdDeviation="20" flood-color="#00E5A0" flood-opacity="0.12"/>
+    </filter>
+    <filter id="pipeShadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00BFFF" flood-opacity="0.4"/>
+    </filter>
+
+    <!-- Grid pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(0,191,255,0.04)" stroke-width="1"/>
+    </pattern>
+
+    <!-- Animated dash -->
+    <marker id="arrowHead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="url(#arrowGrad)"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="520" fill="url(#bgGrad)"/>
+  <rect width="1200" height="520" fill="url(#grid)"/>
+
+  <!-- Subtle radial glows -->
+  <ellipse cx="240" cy="260" rx="220" ry="180" fill="rgba(0,100,255,0.05)"/>
+  <ellipse cx="960" cy="260" rx="260" ry="200" fill="rgba(0,229,160,0.04)"/>
+
+  <!-- ===================== LEFT SECTION LABEL ===================== -->
+  <text x="60" y="54" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="700" fill="#00BFFF" letter-spacing="0.5">DeliveryHub</text>
+  <text x="60" y="78" font-family="'Segoe UI', Arial, sans-serif" font-size="15" fill="rgba(160,185,220,0.7)" font-weight="400">Sharing Platform</text>
+
+  <!-- ===================== RIGHT SECTION LABEL ===================== -->
+  <text x="720" y="54" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="700" fill="#00E5A0" letter-spacing="0.5">Consumer</text>
+  <text x="720" y="78" font-family="'Segoe UI', Arial, sans-serif" font-size="15" fill="rgba(160,185,220,0.7)" font-weight="400">Destinations</text>
+
+  <!-- Divider line -->
+  <line x1="60" y1="95" x2="1140" y2="95" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+  <!-- ===================== DELIVERYHUB MAIN CARD ===================== -->
+  <rect x="60" y="115" width="430" height="290" rx="20" ry="20" fill="url(#dhCardGrad)" stroke="rgba(0,191,255,0.2)" stroke-width="1.5" filter="url(#cardShadow)"/>
+  <!-- Top accent line -->
+  <rect x="60" y="115" width="430" height="3" rx="2" fill="url(#arrowGrad)" opacity="0.8"/>
+
+  <!-- DH Logo Icon — stylized "D" hub icon -->
+  <g transform="translate(195, 175)">
+    <!-- Outer ring -->
+    <circle cx="80" cy="75" r="62" fill="none" stroke="rgba(0,191,255,0.15)" stroke-width="1.5"/>
+    <circle cx="80" cy="75" r="48" fill="rgba(0,100,255,0.1)" stroke="rgba(0,150,255,0.2)" stroke-width="1"/>
+    <!-- Hub spokes -->
+    <line x1="80" y1="27" x2="80" y2="45" stroke="rgba(0,191,255,0.3)" stroke-width="1.5"/>
+    <line x1="80" y1="105" x2="80" y2="123" stroke="rgba(0,191,255,0.3)" stroke-width="1.5"/>
+    <line x1="32" y1="75" x2="50" y2="75" stroke="rgba(0,191,255,0.3)" stroke-width="1.5"/>
+    <line x1="110" y1="75" x2="128" y2="75" stroke="rgba(0,191,255,0.3)" stroke-width="1.5"/>
+    <!-- Center box icon -->
+    <rect x="57" y="52" width="46" height="46" rx="10" fill="url(#logoGrad)" opacity="0.95"/>
+    <!-- Package/delivery icon inside -->
+    <polyline points="80,58 94,65 94,82 80,89 66,82 66,65 80,58" fill="none" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="80" y1="58" x2="80" y2="89" stroke="white" stroke-width="1.5" opacity="0.6"/>
+    <line x1="66" y1="65" x2="94" y2="65" stroke="white" stroke-width="1.5" opacity="0.6"/>
+  </g>
+
+  <!-- DeliveryHub wordmark -->
+  <text x="275" y="368" font-family="'Segoe UI', Arial, sans-serif" font-size="26" font-weight="800" fill="white" text-anchor="middle" letter-spacing="1">deliveryhub</text>
+  <!-- Tagline -->
+  <text x="275" y="391" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="rgba(0,191,255,0.6)" text-anchor="middle" letter-spacing="2">DATA SHARING · REIMAGINED</text>
+
+  <!-- ===================== ANIMATED PIPE / ARROW ===================== -->
+  <!-- Pipe track -->
+  <rect x="500" y="248" width="210" height="2" rx="1" fill="rgba(0,191,255,0.15)"/>
+  <!-- Animated flow line -->
+  <rect x="500" y="247" width="210" height="4" rx="2" fill="url(#arrowGrad)" opacity="0.9" filter="url(#pipeShadow)">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Pill label -->
+  <rect x="555" y="228" width="120" height="34" rx="17" fill="#0D1E35" stroke="rgba(0,191,255,0.25)" stroke-width="1.5"/>
+  <text x="615" y="250" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="rgba(200,220,255,0.85)" text-anchor="middle" font-weight="500">Deliver data to</text>
+
+  <!-- Arrowhead -->
+  <polygon points="705,241 718,249 705,257" fill="url(#arrowGrad)" filter="url(#pipeShadow)"/>
+
+  <!-- Moving dots on pipe -->
+  <circle cx="0" cy="249" r="4" fill="#00BFFF" opacity="0.9">
+    <animateMotion dur="1.8s" repeatCount="indefinite" path="M 500,0 L 708,0"/>
+    <animate attributeName="opacity" values="0;1;0" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="0" cy="249" r="3" fill="#00E5A0" opacity="0.8">
+    <animateMotion dur="1.8s" begin="0.6s" repeatCount="indefinite" path="M 500,0 L 708,0"/>
+    <animate attributeName="opacity" values="0;1;0" dur="1.8s" begin="0.6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ===================== CONSUMER DESTINATIONS CARD ===================== -->
+  <rect x="720" y="115" width="420" height="290" rx="20" ry="20" fill="url(#consumerCardGrad)" stroke="rgba(0,229,160,0.15)" stroke-width="1.5" filter="url(#cardShadowGreen)"/>
+  <!-- Top accent -->
+  <linearGradient id="consumerAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#00E5A0"/>
+    <stop offset="100%" style="stop-color:#00BFFF"/>
+  </linearGradient>
+  <rect x="720" y="115" width="420" height="3" rx="2" fill="url(#consumerAccent)" opacity="0.8"/>
+
+  <!-- ---- Cloud Data Warehouse sub-card ---- -->
+  <rect x="745" y="135" width="370" height="118" rx="14" fill="url(#warehouseGrad)" stroke="rgba(0,191,255,0.12)" stroke-width="1"/>
+  <!-- Icon -->
+  <g transform="translate(770, 158)">
+    <!-- Cloud shape -->
+    <path d="M 30,40 Q 10,40 10,25 Q 10,12 22,10 Q 24,0 36,2 Q 42,-2 48,6 Q 58,4 60,16 Q 70,16 70,26 Q 70,40 50,40 Z" fill="rgba(0,191,255,0.15)" stroke="rgba(0,191,255,0.5)" stroke-width="1.5"/>
+    <!-- Database cylinder -->
+    <ellipse cx="40" cy="44" rx="14" ry="5" fill="rgba(0,191,255,0.3)" stroke="rgba(0,191,255,0.6)" stroke-width="1.2"/>
+    <rect x="26" y="44" width="28" height="18" fill="rgba(0,191,255,0.15)" stroke="rgba(0,191,255,0.4)" stroke-width="1"/>
+    <ellipse cx="40" cy="62" rx="14" ry="5" fill="rgba(0,191,255,0.2)" stroke="rgba(0,191,255,0.5)" stroke-width="1.2"/>
+    <!-- Lines on cylinder -->
+    <line x1="27" y1="50" x2="53" y2="50" stroke="rgba(0,191,255,0.35)" stroke-width="1"/>
+    <line x1="27" y1="56" x2="53" y2="56" stroke="rgba(0,191,255,0.35)" stroke-width="1"/>
+  </g>
+  <text x="860" y="178" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="700" fill="white">Cloud Data Warehouse</text>
+  <text x="860" y="198" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="rgba(0,191,255,0.6)">Redshift · BigQuery · Snowflake · Databricks</text>
+  <!-- Status pill -->
+  <rect x="860" y="210" width="70" height="20" rx="10" fill="rgba(0,191,255,0.1)" stroke="rgba(0,191,255,0.3)" stroke-width="1"/>
+  <circle cx="871" cy="220" r="4" fill="#00BFFF">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="880" y="224" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#00BFFF">LIVE</text>
+
+  <!-- ---- File Storage sub-card ---- -->
+  <rect x="745" y="267" width="370" height="118" rx="14" fill="url(#storageGrad)" stroke="rgba(0,229,160,0.12)" stroke-width="1"/>
+  <!-- Icon -->
+  <g transform="translate(770, 288)">
+    <!-- Folder base -->
+    <path d="M 5,15 Q 5,8 12,8 L 28,8 L 33,3 L 55,3 Q 62,3 62,10 L 62,50 Q 62,57 55,57 L 12,57 Q 5,57 5,50 Z" fill="rgba(0,229,160,0.12)" stroke="rgba(0,229,160,0.45)" stroke-width="1.5"/>
+    <!-- Grid inside -->
+    <rect x="18" y="22" width="12" height="12" rx="2" fill="rgba(0,229,160,0.3)" stroke="rgba(0,229,160,0.5)" stroke-width="1"/>
+    <rect x="34" y="22" width="12" height="12" rx="2" fill="rgba(0,229,160,0.3)" stroke="rgba(0,229,160,0.5)" stroke-width="1"/>
+    <rect x="18" y="38" width="12" height="12" rx="2" fill="rgba(0,229,160,0.15)" stroke="rgba(0,229,160,0.35)" stroke-width="1"/>
+    <rect x="34" y="38" width="12" height="12" rx="2" fill="rgba(0,229,160,0.15)" stroke="rgba(0,229,160,0.35)" stroke-width="1"/>
+  </g>
+  <text x="860" y="312" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="700" fill="white">File Storage</text>
+  <text x="860" y="332" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="rgba(0,229,160,0.6)">S3 · Azure Blob · GCS · SFTP</text>
+  <!-- Status pill -->
+  <rect x="860" y="344" width="70" height="20" rx="10" fill="rgba(0,229,160,0.08)" stroke="rgba(0,229,160,0.3)" stroke-width="1"/>
+  <circle cx="871" cy="354" r="4" fill="#00E5A0">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="880" y="358" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#00E5A0">LIVE</text>
+
+  <!-- ===================== BOTTOM STATS BAR ===================== -->
+  <rect x="60" y="432" width="1080" height="60" rx="14" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+
+  <!-- Stat 1 -->
+  <text x="155" y="458" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="800" fill="#00BFFF" text-anchor="middle">100%</text>
+  <text x="155" y="476" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="rgba(160,185,220,0.55)" text-anchor="middle">Managed Infrastructure</text>
+
+  <line x1="270" y1="442" x2="270" y2="482" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+  <!-- Stat 2 -->
+  <text x="385" y="458" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="800" fill="#00E5A0" text-anchor="middle">8+</text>
+  <text x="385" y="476" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="rgba(160,185,220,0.55)" text-anchor="middle">Destination Platforms</text>
+
+  <line x1="500" y1="442" x2="500" y2="482" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+  <!-- Stat 3 -->
+  <text x="615" y="458" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="800" fill="#7B8FFF" text-anchor="middle">All</text>
+  <text x="615" y="476" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="rgba(160,185,220,0.55)" text-anchor="middle">Regions Supported</text>
+
+  <line x1="730" y1="442" x2="730" y2="482" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+  <!-- Stat 4 -->
+  <text x="845" y="458" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="800" fill="#FFB547" text-anchor="middle">Zero</text>
+  <text x="845" y="476" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="rgba(160,185,220,0.55)" text-anchor="middle">Pre-existing Setup Needed</text>
+
+  <line x1="960" y1="442" x2="960" y2="482" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+  <!-- Stat 5 -->
+  <text x="1075" y="458" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="800" fill="#FF6B9D" text-anchor="middle">Secure</text>
+  <text x="1075" y="476" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="rgba(160,185,220,0.55)" text-anchor="middle">Isolated Environments</text>
+
+</svg>
