@@ -168,11 +168,51 @@ module.exports = {
       ],
     },
 
-    'Destinations/Sftp',
-    'Destinations/Redshift',
-    'Destinations/Databricks',
-    'Destinations/Bigquery',
-    'Destinations/Snowflake',
+    {
+      type: 'category',
+      label: 'SFTP',
+      link: { type: 'doc', id: 'Destinations/sftp/destinations-sftp-index' },
+      items: [
+        { type: 'doc', id: 'Destinations/sftp/deliveryhub-managed-sftp-setup-guide', label: 'DeliveryHub-managed SFTP setup guide' },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Amazon Redshift',
+      link: { type: 'doc', id: 'Destinations/Redshift/destinations-redshift-index' },
+      items: [
+        { type: 'doc', id: 'Destinations/Redshift/deliveryhub-managed-amazon-redshift-setup-guide', label: 'DeliveryHub-managed Amazon Redshift setup guide' },
+        { type: 'doc', id: 'Destinations/Redshift/consuming-a-data-transfer-in-amazon-redshift', label: 'Consuming a data transfer in Amazon Redshift' },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Databricks',
+      link: { type: 'doc', id: 'Destinations/databricks/destinations-databricks-index' },
+      items: [
+        { type: 'doc', id: 'Destinations/databricks/deliveryhub-managed-databricks-setup-guide', label: 'DeliveryHub-managed Databricks setup guide' },
+        { type: 'doc', id: 'Destinations/databricks/consuming-a-data-transfer-in-databricks', label: 'Consuming a data transfer in Databricks' },
+        { type: 'doc', id: 'Destinations/databricks/consuming-a-data-transfer-in-databricks-open-sharing', label: 'Consuming a data transfer in Databricks (Open Sharing)' },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Google BigQuery',
+      link: { type: 'doc', id: 'Destinations/Bigquery/destinations-bigquery-index' },
+      items: [
+        { type: 'doc', id: 'Destinations/Bigquery/deliveryhub-managed-google-bigquery-setup-guide', label: 'DeliveryHub-managed Google BigQuery setup guide' },
+        { type: 'doc', id: 'Destinations/Bigquery/consuming-a-data-transfer-in-google-bigquery', label: 'Consuming a data transfer in Google BigQuery' },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Snowflake',
+      link: { type: 'doc', id: 'Destinations/snowflake/destinations-snowflake-index' },
+      items: [
+        { type: 'doc', id: 'Destinations/snowflake/deliveryhub-managed-snowflake-setup-guide', label: 'DeliveryHub-managed Snowflake setup guide' },
+        { type: 'doc', id: 'Destinations/snowflake/accessing-data-in-snowflake', label: 'Accessing data in Snowflake' },
+      ],
+    },
   ],
 }
 

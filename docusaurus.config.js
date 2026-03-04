@@ -24,20 +24,27 @@ module.exports = {
   ],
 
   themeConfig: {
-    // 👇 ADD THIS - it's missing!
     colorMode: {
       defaultMode: 'light',
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },
-    
+
     navbar: {
       title: 'DeliveryHub',
       logo: {
         alt: 'My Site Logo',
         src: 'img/AltHubLogo-Invisage-1.svg',
       },
+      items: [
+        {
+          to: '/docs',
+          label: 'Docs',
+          position: 'left',
+        },
+      ],
     },
+
     footer: {
       style: 'dark',
       links: [
@@ -83,5 +90,5 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} DeliveryHub, Inc. Built with AltHub.com.`,
     },
-  }
+  },
 };

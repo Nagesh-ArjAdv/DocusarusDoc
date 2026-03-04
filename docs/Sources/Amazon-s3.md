@@ -8,6 +8,10 @@ import Admonition from '@theme/Admonition';
 
 # Amazon S3 as a Source
 
+<div className="hero-image">
+  <img src="\img\data-source-flow-s3.svg" alt="DeliveryHub Platform" />
+</div>
+
 <div className="hero-banner">
   <h2>Ingest Files from Your S3 Buckets into DeliveryHub</h2>
 </div>

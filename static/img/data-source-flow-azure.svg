@@ -1,0 +1,60 @@
+<svg viewBox="0 0 800 350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#f97316"/>
+    </marker>
+    <style>
+      .bg-rect     { fill: none; stroke: #d1d5db; }
+      .label-sub   { fill: #6b7280; }
+      .label-title { fill: #111827; }
+      .icon-label  { fill: #111827; }
+      .pill-bg     { fill: #fff7ed; stroke: #f97316; }
+      .pill-text   { fill: #c2410c; }
+      .dh-text     { fill: #2563eb; }
+
+      @media (prefers-color-scheme: dark) {
+        .bg-rect     { fill: none; stroke: #4b5563; }
+        .label-sub   { fill: #9ca3af; }
+        .label-title { fill: #f9fafb; }
+        .icon-label  { fill: #f9fafb; }
+        .pill-bg     { fill: #431407; stroke: #f97316; }
+        .pill-text   { fill: #fdba74; }
+        .dh-text     { fill: #60a5fa; }
+      }
+    </style>
+  </defs>
+
+  <!-- Left box -->
+  <rect x="50" y="50" width="280" height="250" rx="12" stroke-width="2" class="bg-rect"/>
+  <text x="65" y="80" font-size="14" font-weight="600" class="label-sub">Provider</text>
+  <text x="65" y="100" font-size="18" font-weight="700" class="label-title">Azure Blob Storage</text>
+
+  <!-- Left icon -->
+  
+  <g transform="translate(190, 175)">
+    <polygon points="-45,40 0,-45 20,40" fill="#0078d4"/>
+    <polygon points="0,-45 45,40 20,40 5,0" fill="#50a4e0"/>
+    <polygon points="-45,40 5,0 20,40" fill="#003f8a"/>
+  </g>
+  <text x="190" y="255" font-size="15" font-weight="700" text-anchor="middle" class="icon-label">Azure Blob Storage</text>
+
+
+  <!-- Arrow -->
+  <line x1="340" y1="175" x2="458" y2="175" stroke="#f97316" stroke-width="2.5" marker-end="url(#arrowhead)"/>
+  <rect x="352" y="148" width="148" height="36" rx="6" stroke-width="1.5" class="pill-bg"/>
+  <text x="426" y="171" font-size="13" font-weight="600" text-anchor="middle" class="pill-text">Grant read access</text>
+
+  <!-- Right box -->
+  <rect x="470" y="50" width="280" height="250" rx="12" stroke-width="2" class="bg-rect"/>
+  <text x="485" y="80" font-size="14" font-weight="600" class="dh-text">DeliveryHub</text>
+  <text x="485" y="100" font-size="18" font-weight="700" class="label-title">Sharing platform</text>
+
+  <!-- DeliveryHub icon -->
+  <g transform="translate(610, 170)">
+    <circle cx="-20" cy="-15" r="18" fill="#2563eb"/>
+    <circle cx="20" cy="-15" r="18" fill="#2563eb"/>
+    <circle cx="0" cy="15" r="18" fill="#1d4ed8"/>
+    <text x="0" y="22" font-size="20" font-weight="bold" fill="white" text-anchor="middle">D</text>
+  </g>
+  <text x="610" y="268" font-size="16" font-weight="700" text-anchor="middle" class="dh-text">deliveryhub</text>
+</svg>
