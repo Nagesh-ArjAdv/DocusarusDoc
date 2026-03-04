@@ -162,8 +162,9 @@ module.exports = {
       label: 'Google Cloud Storage',
       link: { type: 'doc', id: 'Destinations/Google-cloud-storage/index' },
       items: [
-        { type: 'doc', id: 'Destinations/Google-cloud-storage/Google-cloud-storage-setup-guide' },
+        { type: 'doc', id: 'Destinations/Google-cloud-storage/deliveryhub-managed-gcs-bucket-setup-guide', label: 'Deliveryhub-managed GCS bucket setup guide' },
         { type: 'doc', id: 'Destinations/Google-cloud-storage/accessing-data-in-google-cloud-storage', label: 'Accessing data in Google Cloud Storage' },
+        { type: 'doc', id: 'Destinations/Google-cloud-storage/external-gcs-managed-bucket-setup-guide', label: 'External GCS managed bucket setup guide' },
       ],
     },
 
