@@ -128,23 +128,52 @@ module.exports = {
     },
 
     {
+  type: 'category',
+  label: 'Destinations',
+  link: {
+    type: 'doc',
+    id: 'Destinations/index',
+  },
+  items: [
+    {
       type: 'category',
-      label: 'Destinations',
-      link: {
-        type: 'doc',
-        id: 'Destinations/index',
-      },
+      label: 'Amazon S3',
+      link: { type: 'doc', id: 'Destinations/Amazon-s3/index' },
       items: [
-        'Destinations/Amazon-s3',
-        'Destinations/Azure-blob-storage',
-        'Destinations/Google-cloud-storage',
-        'Destinations/Sftp',
-        'Destinations/Redshift',
-        'Destinations/Databricks',
-        'Destinations/Bigquery',
-        'Destinations/Snowflake',
+        { type: 'doc', id: 'Destinations/Amazon-s3/deliveryhub-managed-s3-bucket-setup-guide', label: 'Deliveryhub-managed S3 bucket setup guide' },
+        { type: 'doc', id: 'Destinations/Amazon-s3/external-s3-bucket-setup-guide', label: 'External S3 bucket setup guide' },
+        { type: 'doc', id: 'Destinations/Amazon-s3/accessing-data-in-amazon-s3', label: 'Accessing data in Amazon S3' },
       ],
     },
+
+    {
+      type: 'category',
+      label: 'Azure Blob Storage',
+      link: { type: 'doc', id: 'Destinations/Azure-blob-storage/index' },
+      items: [
+        { type: 'doc', id: 'Destinations/Azure-blob-storage/deliveryhub-managed-application-setup-guide', label: 'Deliveryhub-managed application setup guide' },
+        { type: 'doc', id: 'Destinations/Azure-blob-storage/accessing-data-in-azure-blob-storage', label: 'Accessing data in Azure Blob Storage' },
+        { type: 'doc', id: 'Destinations/Azure-blob-storage/consumer-managed-application-setup-guide', label: 'Consumer-managed application setup guide' },
+      ],
+    },
+
+    {
+      type: 'category',
+      label: 'Google Cloud Storage',
+      link: { type: 'doc', id: 'Destinations/Google-cloud-storage/index' },
+      items: [
+        { type: 'doc', id: 'Destinations/Google-cloud-storage/Google-cloud-storage-setup-guide' },
+        { type: 'doc', id: 'Destinations/Google-cloud-storage/accessing-data-in-google-cloud-storage', label: 'Accessing data in Google Cloud Storage' },
+      ],
+    },
+
+    'Destinations/Sftp',
+    'Destinations/Redshift',
+    'Destinations/Databricks',
+    'Destinations/Bigquery',
+    'Destinations/Snowflake',
+  ],
+}
 
   ],
 };
