@@ -27,6 +27,11 @@ const FeatureList = [
     description: (
       <>
         Ingest data from cloud warehouses and object storage with automated pipelines.
+        <br />
+
+        <Link to="/docs/Sources/">
+          Learn more →
+        </Link>
       </>
     ),
   },
@@ -36,6 +41,11 @@ const FeatureList = [
     description: (
       <>
         Deliver your transformed or replicated data to cloud warehouses, storage, or analytics systems.
+        <br />
+
+        <Link to="/docs/Destinations/">
+          Learn more →
+        </Link>
       </>
     ),
   },
