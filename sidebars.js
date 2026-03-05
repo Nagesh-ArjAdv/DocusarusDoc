@@ -51,6 +51,18 @@ module.exports = {
 
     {
       type: 'category',
+      label: 'Consumer Organizations',
+      link: {
+        type: 'doc',
+        id: 'consumer-organizations/index',
+      },
+      items: [
+        'consumer-organizations/create-and-manage-consumer-organizations',
+      ],
+    },
+
+    {
+      type: 'category',
       label: 'Using DeliveryHub',
       items: [
         'using/deliveryhub-application',
