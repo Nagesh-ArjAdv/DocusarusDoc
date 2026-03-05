@@ -43,15 +43,6 @@ module.exports = {
 
     {
       type: 'category',
-      label: 'Quickstarts',
-      items: [
-        'quickstarts/hubhouse-quickstart',
-        'quickstarts/transfers-quickstart',
-      ],
-    },
-
-    {
-      type: 'category',
       label: 'Shares',
       items: [
         'shares/create-and-manage-share',
@@ -214,7 +205,16 @@ module.exports = {
       ],
     },
   ],
-}
+},
+
+    {
+      type: 'category',
+      label: 'Quickstarts',
+      items: [
+        'quickstarts/hubhouse-quickstart',
+        'quickstarts/transfers-quickstart',
+      ],
+    },
 
   ],
 };

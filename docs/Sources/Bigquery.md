@@ -4,12 +4,10 @@ title: Google BigQuery
 
 import Admonition from '@theme/Admonition';
 
-# <span style={{color: 'var(--ifm-color-primary)'}}>Google BigQuery — DeliveryHub Source</span>
-
+# Google BigQuery
 Extract data from BigQuery using SQL queries and ingest into Hubhouse Tables.
-
-<div style={{textAlign: 'center', marginY: '2rem'}}>
-  <img src="/img/data-source-flow.svg" alt="Data source to DeliveryHub flow" style={{maxWidth: '600px', width: '100%'}} />
+<div className="hero-image">
+  <img src="\img\data-source-flow-bigquery.svg" alt="DeliveryHub Platform" />
 </div>
 
 ---

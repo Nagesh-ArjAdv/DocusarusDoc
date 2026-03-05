@@ -4,7 +4,11 @@ title: Google Cloud Storage
 
 import Admonition from '@theme/Admonition';
 
-# <span style={{color: 'var(--ifm-color-primary)'}}>Google Cloud Storage — DeliveryHub Source</span>
+# Google Cloud Storage 
+
+<div className="hero-image">
+  <img src="\img\data-source-flow-gcs.svg" alt="DeliveryHub Platform" />
+</div>
 
 <div className="hero-banner">
   <h2>Ingest Data from Google Cloud Storage into DeliveryHub</h2>

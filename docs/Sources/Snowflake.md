@@ -2,16 +2,12 @@
 title: Snowflake
 ---
 
-# <span style={{color: 'var(--ifm-color-primary)'}}>Snowflake — DeliveryHub Source</span>
-
-Extract data from your Snowflake data warehouse into Hubhouse Tables.
-
-<div style={{textAlign: 'center', margin: '2rem 0'}}>
-  <img src="/img/data-source-flow.svg" alt="Data source to DeliveryHub flow" style={{maxWidth: '100%', maxHeight: '300px'}} />
+# Snowflake
+<div className="hero-image">
+  <img src="\img\data-source-flow-snowflake.svg" alt="DeliveryHub Platform" />
 </div>
 
----
-
+Extract data from your Snowflake data warehouse into Hubhouse Tables.
 ## <span style={{color: 'var(--ifm-color-primary)'}}>Key Features</span>
 
 | Feature | Benefit |

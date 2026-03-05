@@ -4,7 +4,11 @@ title: Azure Object Storage
 
 import Admonition from '@theme/Admonition';
 
-# <span style={{color: 'var(--ifm-color-primary)'}}>Azure Object Storage (Blob) — DeliveryHub Source</span>
+# Azure Object Storage
+
+<div className="hero-image">
+  <img src="\img\data-source-flow-azure.svg" alt="DeliveryHub Platform" />
+</div>
 
 <div className="hero-banner">
   <h2>Connect Azure Blob Storage to DeliveryHub</h2>

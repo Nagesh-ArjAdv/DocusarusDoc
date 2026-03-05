@@ -4,7 +4,11 @@ title: SFTP
 
 import Admonition from '@theme/Admonition';
 
-# <span style={{color: 'var(--ifm-color-primary)'}}>SFTP (Secure File Transfer Protocol) — DeliveryHub Source</span>
+# SFTP (Secure File Transfer Protocol)
+
+<div className="hero-image">
+  <img src="\img\data-source-flow-sftp.svg" alt="DeliveryHub Platform" />
+</div>
 
 <div className="hero-banner">
   <h2>Ingest Data from SFTP Servers into DeliveryHub</h2>

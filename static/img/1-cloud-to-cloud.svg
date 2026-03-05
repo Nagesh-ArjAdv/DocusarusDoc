@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 160" width="860" height="160" font-family="'Segoe UI', system-ui, sans-serif">
+  <defs>
+    <pattern id="dots" x="0" y="0" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#d0d4dc" opacity="0.6"/>
+    </pattern>
+    <filter id="cardShadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#b0b8c8" flood-opacity="0.22"/>
+    </filter>
+    <filter id="hubShadow" x="-10%" y="-30%" width="120%" height="160%">
+      <feDropShadow dx="0" dy="3" stdDeviation="7" flood-color="#1a2050" flood-opacity="0.28"/>
+    </filter>
+    <linearGradient id="hubGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e2550"/>
+      <stop offset="100%" stop-color="#141930"/>
+    </linearGradient>
+    <linearGradient id="orangeArrow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="blueArrow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="860" height="160" rx="20" fill="#eef0f4"/>
+  <rect width="860" height="160" rx="20" fill="url(#dots)"/>
+
+  <!-- Left card — Cloud -->
+  <rect x="60" y="34" width="188" height="92" rx="14" fill="white" filter="url(#cardShadow)"/>
+  <g transform="translate(88,46)">
+    <path d="M8 30 Q3 30 3 24 Q3 18 9 17 Q9 10 16 9 Q23 8 25 14 Q30 13 32 18 Q37 17 37 23 Q37 29 31 30 Z" fill="#FF9900"/>
+    <path d="M16 35 L16 30 M21 35 L21 30 M27 35 L27 30" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <rect x="13" y="35" width="18" height="5" rx="2.5" fill="#FF9900"/>
+  </g>
+  <g transform="translate(138,53)">
+    <path d="M0 0 L11 0 L15 4 L15 22 L0 22 Z" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+    <path d="M11 0 L11 4 L15 4" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+    <line x1="3" y1="10" x2="12" y2="10" stroke="#d1d5db" stroke-width="1.2"/>
+    <line x1="3" y1="14" x2="12" y2="14" stroke="#d1d5db" stroke-width="1.2"/>
+  </g>
+  <text x="154" y="93" text-anchor="middle" font-size="13.5" fill="#374151" font-weight="700">Cloud</text>
+  <text x="154" y="110" text-anchor="middle" font-size="10.5" fill="#9ca3af">AWS / Azure / GCP</text>
+
+  <!-- Orange arrow -->
+  <line x1="250" y1="80" x2="295" y2="80" stroke="url(#orangeArrow)" stroke-width="2.8"/>
+  <polygon points="295,74 308,80 295,86" fill="#f97316"/>
+
+  <!-- Hub pill -->
+  <rect x="308" y="56" width="244" height="48" rx="24" fill="url(#hubGrad)" filter="url(#hubShadow)"/>
+  <g transform="translate(338,72)">
+    <rect x="0" y="0" width="17" height="17" rx="3.5" fill="#3b82f6"/>
+    <path d="M3 8.5 L8.5 3 L14 8.5 L8.5 14 Z" fill="white" opacity="0.9"/>
+  </g>
+  <text x="430" y="86" text-anchor="middle" font-size="16" font-weight="700" fill="white" letter-spacing="0.5">deliveryhub</text>
+
+  <!-- Blue arrow -->
+  <line x1="552" y1="80" x2="597" y2="80" stroke="url(#blueArrow)" stroke-width="2.8"/>
+  <polygon points="597,74 610,80 597,86" fill="#2563eb"/>
+
+  <!-- Right card — Cloud -->
+  <rect x="612" y="34" width="188" height="92" rx="14" fill="white" filter="url(#cardShadow)"/>
+  <g transform="translate(640,46)">
+    <path d="M8 30 Q3 30 3 24 Q3 18 9 17 Q9 10 16 9 Q23 8 25 14 Q30 13 32 18 Q37 17 37 23 Q37 29 31 30 Z" fill="#3b82f6"/>
+    <path d="M16 35 L16 30 M21 35 L21 30 M27 35 L27 30" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <rect x="13" y="35" width="18" height="5" rx="2.5" fill="#3b82f6"/>
+  </g>
+  <g transform="translate(690,53)">
+    <path d="M0 0 L11 0 L15 4 L15 22 L0 22 Z" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+    <path d="M11 0 L11 4 L15 4" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+    <line x1="3" y1="10" x2="12" y2="10" stroke="#d1d5db" stroke-width="1.2"/>
+    <line x1="3" y1="14" x2="12" y2="14" stroke="#d1d5db" stroke-width="1.2"/>
+  </g>
+  <text x="706" y="93" text-anchor="middle" font-size="13.5" fill="#374151" font-weight="700">Cloud</text>
+  <text x="706" y="110" text-anchor="middle" font-size="10.5" fill="#9ca3af">AWS / Azure / GCP</text>
+</svg>
