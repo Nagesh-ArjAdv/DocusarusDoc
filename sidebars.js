@@ -10,34 +10,6 @@ module.exports = {
 
     {
       type: 'category',
-      label: 'Transfers',
-      items: [
-        'transfers/what-is-deliveryhub-transfers',
-        'transfers/file-storage-to-cloud',
-        'transfers/file-storage-to-file-storage',
-      ],
-    },
-
-    {
-      type: 'category',
-      label: 'Shares',
-      items: [
-        'shares/create-and-manage-share',
-      ],
-    },
-
-    {
-      type: 'category',
-      label: 'Using DeliveryHub',
-      items: [
-        'using/deliveryhub-application',
-        'using/data-sources',
-        'using/environment',
-      ],
-    },
-
-    {
-      type: 'category',
       label: 'Sources',
       link: {
         type: 'doc',
@@ -186,7 +158,39 @@ module.exports = {
 
     {
       type: 'category',
-      label: 'Quickstarts',
+      label: 'Data Shares',
+      link: {
+        type: 'doc',
+        id: 'shares/index',
+      },
+      items: [
+        'shares/create-and-manage-share',
+      ],
+    },
+
+    {
+      type: 'category',
+      label: 'Using DeliveryHub',
+      items: [
+        'using/deliveryhub-application',
+        'using/data-sources',
+        'using/environment',
+      ],
+    },
+
+    {
+      type: 'category',
+      label: 'Transfers',
+      items: [
+        'transfers/what-is-deliveryhub-transfers',
+        'transfers/file-storage-to-cloud',
+        'transfers/file-storage-to-file-storage',
+      ],
+    },
+
+    {
+      type: 'category',
+      label: 'Quick Starts',
       items: [
         'quickstarts/hubhouse-quickstart',
         'quickstarts/transfers-quickstart',

@@ -79,6 +79,30 @@ See [What are DeliveryHub Transfers?](/docs/transfers/what-is-deliveryhub-transf
 
 Use share and transfer logs to monitor runs, retries, and operational events.
 
+## Monitor and operate data shares
+
+After shares are created, use the Shares workspace to monitor health and run operations.
+
+### Common share states
+
+- **Active**: Share is enabled and can run on schedule.
+- **Paused**: Scheduled runs are temporarily stopped.
+- **Error**: A recent run failed and requires attention.
+
+### Common share actions
+
+- **Pause/Resume** to stop or restart scheduled execution.
+- **Edit** to update share configuration.
+- **Run Now** to trigger an on-demand run.
+- **Delete/Archive** to retire a share based on your environment policy.
+
+### Operational fields to check
+
+- **Schedule** for configured run cadence.
+- **Next Run** to confirm expected execution timing.
+- **Last Run** to verify success or failure details.
+- **Data Transferred** to validate transfer volume trends.
+
 ## Managing existing shares
 
 ### Edit share metadata
