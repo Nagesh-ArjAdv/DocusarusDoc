@@ -5,20 +5,6 @@ module.exports = {
       label: 'Welcome',
       items: [
         'welcome/what-is-deliveryhub',
-        'welcome/how-deliveryhub-moves-your-data',
-        'welcome/how-deliveryhub-maps-data-types',
-      ],
-    },
-
-    {
-      type: 'category',
-      label: 'Hubhouse',
-      items: [
-        'hubhouse/what-is-hubhouse',
-        'hubhouse/what-is-a-hubhouse-table',
-        'hubhouse/what-are-data-products',
-        'hubhouse/what-is-data-fulfillment',
-        'hubhouse/backfilling-in-hubhouse',
       ],
     },
 
@@ -27,17 +13,8 @@ module.exports = {
       label: 'Transfers',
       items: [
         'transfers/what-is-deliveryhub-transfers',
-        'transfers/deliveryhub-transfer-backfill',
-        'transfers/retry-mechanism',
         'transfers/file-storage-to-cloud',
         'transfers/file-storage-to-file-storage',
-        'transfers/cloud-to-file-storage',
-        'transfers/cloud-to-cloud',
-        'transfers/setting-globs',
-        'transfers/view-schema-override-types',
-        'transfers/setting-backfill-segmentation',
-        'transfers/sync-preferences-schedule',
-        'transfers/auto-revoking-access',
       ],
     },
 
@@ -46,18 +23,6 @@ module.exports = {
       label: 'Shares',
       items: [
         'shares/create-and-manage-share',
-      ],
-    },
-
-    {
-      type: 'category',
-      label: 'Consumer Organizations',
-      link: {
-        type: 'doc',
-        id: 'consumer-organizations/index',
-      },
-      items: [
-        'consumer-organizations/create-and-manage-consumer-organizations',
       ],
     },
 

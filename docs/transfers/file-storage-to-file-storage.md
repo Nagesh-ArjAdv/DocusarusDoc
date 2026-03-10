@@ -7,7 +7,7 @@ title: File Storage to File Storage
 
 DeliveryHub supports replicating data directly from one file storage system to another while preserving folder/object structure.
 <div className="hero-image">
-  <img src="\img\filestorage-to-filestorage.svg" alt="DeliveryHub Platform" />
+  <img src="\img\4-filestorage-to-filestorage.svg" alt="DeliveryHub Platform" />
 </div>
 This transfer type is commonly used for cross-cloud distribution, regional replication, and partner delivery workflows that expect file-based access.
 
