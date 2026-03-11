@@ -161,10 +161,10 @@ module.exports = {
       label: 'Data Shares',
       link: {
         type: 'doc',
-        id: 'shares/index',
+        id: 'Data Share/index',
       },
       items: [
-        'shares/create-and-manage-share',
+        'Data Share/create-and-manage-share',
       ],
     },
 

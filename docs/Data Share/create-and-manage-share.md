@@ -1,9 +1,9 @@
 ---
 id: create-and-manage-share
-title: Create and Manage Share
+title: Create and Manage Data Shares
 ---
 
-# Create and Manage Share
+# Create and Manage Data Shares
 
 This guide walks you through setting up a share in DeliveryHub, from basic details to active data transfer delivery.
 
