@@ -1,19 +1,19 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+data-delivery:
+  label: Data Delivery
+  permalink: /data-delivery
+  description: Posts about reliable data movement across sources and destinations.
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+alternative-data:
+  label: Alternative Data
+  permalink: /alternative-data
+  description: Posts on turning operational data into investor-ready insights.
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+data-monetization:
+  label: Data Monetization
+  permalink: /data-monetization
+  description: Ideas for creating revenue from existing data assets.
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+platform:
+  label: Platform
+  permalink: /platform
+  description: Product and platform strategy updates.
