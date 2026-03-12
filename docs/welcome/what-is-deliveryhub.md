@@ -17,7 +17,7 @@ import Admonition from '@theme/Admonition';
 DeliveryHub is a next-generation data fulfillment platform that empowers organizations to seamlessly **share**, **deliver**, and **customize datasets** across multiple clouds, regions, and tools—**without the complexity of traditional data pipelines**.
 </Admonition>
 
-At its core, DeliveryHub transforms raw or refined data into secure, **governed Data Products** that can be instantly shared with internal teams, partners, and customers. Eliminate the need to maintain fragile pipelines, handle complex replication logic, or manage underlying infrastructure—DeliveryHub takes care of it all, so your teams can focus on **delivering value through data**.
+At its core, DeliveryHub transforms raw or refined data into secure, **governed datasets** that can be shared with internal teams, partners, and customers. Eliminate the need to maintain fragile pipelines, handle complex replication logic, or manage underlying infrastructure—DeliveryHub takes care of it all, so your teams can focus on **delivering value through data**.
 
 ---
 
@@ -61,8 +61,8 @@ With **DeliveryHub**, you no longer have to choose between **flexibility and sim
     Share analytics-ready data securely with external teams across any cloud environment—without friction.
   </TabItem>
   
-  <TabItem value="zerocopy" label="🔁 Zero-Copy Data Products">
-    Create and distribute logical views of shared data assets without duplicating or replicating data.
+  <TabItem value="managed" label="🔁 Managed Dataset Delivery">
+    Configure reusable delivery workflows for shared datasets without rebuilding pipelines for each consumer.
   </TabItem>
   
   <TabItem value="egress" label="💰 Egress-Free Infrastructure">
@@ -70,7 +70,7 @@ With **DeliveryHub**, you no longer have to choose between **flexibility and sim
   </TabItem>
   
   <TabItem value="pointclick" label="🖱 Point-and-Click Experience">
-    Enable business users and non-technical teams to customize and deliver data products effortlessly.
+    Enable business users and non-technical teams to configure and deliver datasets effortlessly.
   </TabItem>
   
   <TabItem value="apis" label="⚙ Powerful APIs">
@@ -96,7 +96,7 @@ Create scalable, secure, and revenue-ready data experiences your customers and p
 |-------|-------------|
 | **Cloud Data Feeds** | Deliver production-ready datasets directly into your customers' data warehouses or cloud storage — no pipelines, no engineering overhead. |
 | **Embedded Analytics** | Give customers live access to application data inside their own analytics stack — zero exports, zero duplication. |
-| **Automated Data Delivery** | Fully automate data fulfillment by embedding DeliveryHub into workflows, products, and data marketplaces. |
+| **Automated Data Delivery** | Fully automate data delivery by embedding DeliveryHub into workflows, products, and data marketplaces. |
 
 </div>
 
@@ -120,7 +120,7 @@ DeliveryHub provisions and maintains a **DeliveryHub Table** — a secure, analy
 <div className="checklist">
 
 - ✅ Automatically sync data on your preferred schedule
-- ✅ Build reusable Data Products without touching the original source
+- ✅ Build reusable delivery workflows without touching the original source
 - ✅ Distribute curated datasets to Snowflake, Databricks, BigQuery, S3, GCS, and more
 - ✅ Use Regional Copies for faster, in-location delivery
 

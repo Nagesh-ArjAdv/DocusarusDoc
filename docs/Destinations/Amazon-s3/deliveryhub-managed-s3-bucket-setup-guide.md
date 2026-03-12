@@ -1,32 +1,32 @@
 ---
 id: deliveryhub-managed-s3-bucket-setup-guide
-title: Deliveryhub managed s3 bucket setup guide 
+title: DeliveryHub managed S3 bucket setup guide
 ---
 
-Deliveryhub can deliver data to a Deliveryhub-managed AWS S3 bucket. This provides a fast and easy way to deliver data, making it easy to grant access to third-party AWS accounts. Deliveryhub supports setting up Amazon S3 as a destination for both Transfers and Hubhouse Fulfillments. This allows you to deliver data to your consumer's bucket, with optional support for using a Deliveryhub-managed path, and optionally use the `requester pays` feature.
+DeliveryHub can deliver data to a DeliveryHub-managed AWS S3 bucket. This provides a fast and easy way to deliver data while granting access to third-party AWS accounts. DeliveryHub supports setting up Amazon S3 as a destination for Transfers and managed destination workflows. This allows you to deliver data to your consumer's bucket, with optional support for using a DeliveryHub-managed path, and optionally use the `requester pays` feature.
 
 ---
 
 ## Prerequisites
 
-- For Data Fulfillment in Hubhouse, this feature must be enabled in your environment.
-- For Deliveryhub transfers, configuring a destination requires a share to have been created.
-- Deliveryhub requires an ARN to be provided to grant access to the data in the Deliveryhub-managed destination. To learn more about ARNs and how to find them, please visit [Account Access Identifiers in AWS](https://aws.amazon.com).
+- For managed destination workflows, this feature must be enabled in your environment.
+- For DeliveryHub transfers, configuring a destination requires a share to have been created.
+- DeliveryHub requires an ARN to be provided to grant access to the data in the DeliveryHub-managed destination. To learn more about ARNs and how to find them, see [Account Access Identifiers in AWS](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_identifiers.html).
 
 ---
 
-## Set up instructions via a Share in Deliveryhub Transfers
+## Set up instructions via a Share in DeliveryHub Transfers
 
 1. On the share page, click the box **Pick Destination**.
 
-2. Select **Amazon S3** and specify the region for your destination bucket(s). Keep the **"Deliveryhub-managed bucket"** option selected. Configure `Requester pays` preferences, then click **Continue**.
+2. Select **Amazon S3** and specify the region for your destination bucket(s). Keep the **"DeliveryHub-managed bucket"** option selected. Configure `Requester pays` preferences, then click **Continue**.
 
 :::note
 - When the **Requester pays** toggle is enabled, the destination consumer is billed for request and data transfer costs instead of your organization. Learn more about [Requester Pays in AWS ↗](https://docs.aws.amazon.com/AmazonS3/latest/userguide/RequesterPaysBuckets.html)
 - This setting can't be changed after data has been shared. To update it, please archive the current share and create a new one.
 :::
 
-3. Enter your ARN and click **Grant Access**. For information on the ARNs Deliveryhub accepts, and where your customer can find them, see our documentation about [AWS Account Access Identifiers](#).
+3. Enter your ARN and click **Grant Access**. For information on the ARNs DeliveryHub accepts, and where your customer can find them, see [Account Access Identifiers in AWS](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_identifiers.html).
 
 4. You've now successfully set up access.
 
@@ -34,20 +34,20 @@ After setting up the destination in a Share, and picking a source, you can get s
 
 ---
 
-## Set up instructions via Data Consumers in Hubhouse
+## Set up instructions via managed destination access
 
 1. When setting up a new Data Consumer, enter the details and scroll down.
 2. Choose **Amazon S3** and the region of your target destination bucket(s). Press **Continue**.
-3. Enter your ARN and click **Save access details**. For information on the ARNs Deliveryhub accepts, and where your customer can find them, see our documentation about [AWS Account Access Identifiers](#).
+3. Enter your ARN and click **Save access details**. For information on the ARNs DeliveryHub accepts, and where your customer can find them, see [Account Access Identifiers in AWS](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_identifiers.html).
 4. You've now successfully set up access.
 
-After setting up the destination, you can get started and fulfill Data Products with your Data Consumer.
+After setting up the destination, you can begin delivering data through the configured managed destination workflow.
 
 ---
 
 ## Permissions granted
 
-Deliveryhub grants the following permissions to any ARN that is granted access to the data in the share:
+DeliveryHub grants the following permissions to any ARN that is granted access to the data in the share:
 
 | Permission | Description |
 |---|---|
@@ -57,4 +57,4 @@ Deliveryhub grants the following permissions to any ARN that is granted access t
 | `s3:ListBucket` | Allows the user to use the Amazon S3 GET Bucket (List Objects) operation |
 | `s3:GetObjectTagging` | Returns the tag set of an object |
 
-To learn more about ARNs used within Deliveryhub, please visit: [Account Access Identifiers in AWS](#).
+To learn more about ARNs used within DeliveryHub, visit [Account Access Identifiers in AWS](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_identifiers.html).

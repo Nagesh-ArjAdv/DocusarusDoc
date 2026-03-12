@@ -19,7 +19,7 @@ Before consuming data, confirm the following:
 
 - A transfer has completed to the GCS destination.
 - Access has been configured for the principal that will read data.
-- For Hubhouse Data Fulfillment, at least one Data Product has been fulfilled to the destination.
+- For managed destination workflows, at least one delivery must have completed to the destination.
 - GCP CLI tools are installed if using command-line access.
 
 If **Requester Pays** is enabled on the destination:
@@ -112,13 +112,13 @@ gsutil -u <your-billing-project-id> cp -r <storage-bucket-uri> <your-bucket/path
 gsutil -u <your-billing-project-id> rsync -r <storage-bucket-uri> <your-bucket/path>
 ```
 
-## Data Fulfillment (Hubhouse) Notes
+## Managed destination workflow notes
 
-When consuming via Data Fulfillment:
+When consuming via a managed destination workflow:
 
-- Open the Data Consumer entry and select **Access Data**.
+- Open the relevant consumer or managed destination entry and select **Access Data**.
 - Share the provided access path details with the consumer securely.
-- Expect discrete object paths for each Data Product rather than one single shared path.
+- Expect discrete object paths for delivered datasets rather than one single shared path.
 
 ## Troubleshooting
 

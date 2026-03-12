@@ -13,7 +13,7 @@ This guide explains how to consume data delivered by DeliveryHub in Snowflake.
 Before consuming data, confirm:
 
 - In Transfers: a data transfer has completed and destination access is configured for the consuming identity.
-- In Hubhouse Data Fulfillment: at least one Data Product has been shared to the destination.
+- In managed destination workflows: at least one delivery has completed to the destination.
 - The Snowflake user accepting the private listing/share has profile fields set: first name, last name, and email.
 
 Example SQL to set profile fields:
@@ -48,10 +48,10 @@ SHOW TABLES IN SCHEMA <shared_db_name>.<schema_name>;
 SELECT * FROM <shared_db_name>.<schema_name>.<table_name> LIMIT 10;
 ```
 
-## Accessing Data Products via Data Fulfillment (Hubhouse)
+## Accessing data via managed destination workflows
 
-1. Open the Data Consumer in Data Fulfillment.
-2. Select **Access Data** after fulfillment is complete.
+1. Open the relevant consumer or managed destination record.
+2. Select **Access Data** after delivery is complete.
 3. Share the provided access details securely with the consumer.
 4. Follow the same Snowflake UI steps above to create/query the shared database.
 

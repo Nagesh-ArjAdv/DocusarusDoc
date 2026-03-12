@@ -16,7 +16,7 @@ import Admonition from '@theme/Admonition';
 </div>
 
 <Admonition type="info" icon="☁️" title="GCS in DeliveryHub">
-DeliveryHub integrates seamlessly with Google Cloud Storage (GCS), enabling you to ingest structured files from GCP buckets into Hubhouse Tables and power your data products at scale.
+DeliveryHub integrates seamlessly with Google Cloud Storage (GCS), enabling you to ingest structured files from GCP buckets and use them in share and transfer workflows.
 </Admonition>
 
 ---

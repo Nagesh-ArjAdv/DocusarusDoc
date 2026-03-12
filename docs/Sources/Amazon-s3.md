@@ -16,8 +16,8 @@ import Admonition from '@theme/Admonition';
   <h2>Ingest Files from Your S3 Buckets into DeliveryHub</h2>
 </div>
 
-<Admonition type="info" icon="🪣" title="Object Storage for Hubhouse">
-DeliveryHub supports **Amazon S3** as a source, allowing you to turn files stored in S3 into **Hubhouse Tables** that power Data Products and downstream fulfillment.
+<Admonition type="info" icon="🪣" title="Object Storage Source">
+DeliveryHub supports **Amazon S3** as a source, allowing you to read files stored in S3 and use them in shares and transfer workflows.
 </Admonition>
 
 ---
@@ -60,7 +60,7 @@ DeliveryHub supports **Amazon S3** as a source, allowing you to turn files store
 ## How the S3 Source Works
 
 ```text
-Amazon S3 Bucket → DeliveryHub Ingestion → Hubhouse Table → Data Products → Destinations
+Amazon S3 Bucket → DeliveryHub Source Connection → Share / Transfer → Destination
 ```
 
 <div className="workflow-steps">
@@ -71,11 +71,11 @@ Amazon S3 Bucket → DeliveryHub Ingestion → Hubhouse Table → Data Products 
 2. **📁 Select Buckets & Paths**  
    Choose which buckets, prefixes, or folders DeliveryHub should monitor and ingest from.
 
-3. **🏗 Define Table Mappings**  
-   Map files into one or more Hubhouse Tables, specifying formats and basic schema information.
+3. **⚙ Define Source Scope**  
+  Select the files, prefixes, formats, and source settings DeliveryHub should use.
 
-4. **🚀 Build Products & Deliver**  
-   Use the resulting Hubhouse Tables to build Data Products and fulfill them to your destinations.
+4. **🚀 Deliver Data**  
+  Use the configured source in shares and transfers to send data to your destinations.
 
 </div>
 
@@ -90,7 +90,7 @@ At minimum, the DeliveryHub S3 source integration needs read access to the bucke
 | Permission | Why It’s Needed |
 |-----------|-----------------|
 | **s3:ListBucket** | Allows DeliveryHub to discover objects within the configured buckets/prefixes. |
-| **s3:GetObject** | Allows DeliveryHub to read file contents so they can be ingested into Hubhouse Tables. |
+| **s3:GetObject** | Allows DeliveryHub to read file contents during source discovery and transfer execution. |
 
 </div>
 

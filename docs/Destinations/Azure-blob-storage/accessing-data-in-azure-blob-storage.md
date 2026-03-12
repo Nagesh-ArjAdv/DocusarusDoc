@@ -142,13 +142,13 @@ Use:
 
 ---
 
-## Data Fulfillment (Hubhouse) Access Notes
+## Managed destination workflow access notes
 
-If consuming data through DeliveryHub Data Fulfillment workflows:
+If consuming data through DeliveryHub managed destination workflows:
 
-- Open the Data Consumer record and select **Access Data**.
+- Open the relevant consumer record and select **Access Data**.
 - Share required credentials and delivery paths securely with the consuming team.
-- Expect discrete paths per Data Product (instead of one aggregated container path).
+- Expect discrete paths per delivered dataset (instead of one aggregated container path).
 
 ## Troubleshooting
 

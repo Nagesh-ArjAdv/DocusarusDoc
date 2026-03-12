@@ -15,7 +15,7 @@ In this setup, data is delivered to a **DeliveryHub-managed Snowflake destinatio
 Before setup, confirm:
 
 - For Transfers: a share has been created.
-- For Hubhouse Data Fulfillment: the feature is enabled in your environment.
+- For managed destination workflows: the feature is enabled in your environment.
 - You have the target Snowflake account identifiers:
 	- Organization name
 	- Account name
@@ -36,7 +36,7 @@ Before setup, confirm:
 
 You have now configured Snowflake destination access for the share.
 
-## Setup via Data Fulfillment (Hubhouse)
+## Setup via managed destination workflow
 
 1. Create or open a Data Consumer record.
 2. Choose **Snowflake** destination, cloud platform, and region.
@@ -49,7 +49,7 @@ You have now configured Snowflake destination access for the share.
 After destination setup:
 
 - Complete source selection in the share (Transfers flow).
-- Run a transfer or fulfill Data Products.
+- Run a transfer or start managed destination delivery.
 - Confirm share visibility and database creation in the consumer Snowflake account.
 
 ## Access Revocation

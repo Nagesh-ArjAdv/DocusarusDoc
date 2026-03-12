@@ -73,11 +73,30 @@ For some managed destination workflows, transfers can run before final consumer 
 
 Once source and destination are set, create one or more transfers for the datasets you want to deliver.
 
+Typical first-transfer flow:
+
+1. Click **Create Transfer**.
+2. Select the source objects, files, or dataset scope you want to deliver.
+3. Choose the transfer behavior that matches your use case.
+4. Set scheduling or trigger preferences.
+5. Review the configuration and save.
+6. Run the transfer and confirm the first execution completes successfully.
+
+After the first run, validate that the expected data arrived in the configured destination.
+
 See [What are DeliveryHub Transfers?](/docs/transfers/what-is-deliveryhub-transfers) and [Transfers Quickstart](/docs/quickstarts/transfers-quickstart).
 
 ### 7) Monitor logs and status
 
 Use share and transfer logs to monitor runs, retries, and operational events.
+
+Check at least the following after initial setup:
+
+- Share state
+- Transfer run status
+- Last run outcome
+- Data transferred volume
+- Destination-side data visibility
 
 ## Monitor and operate data shares
 

@@ -131,7 +131,7 @@ SELECT
 ```
 
 :::tip
-Not sure where to find these in Snowflake? [Learn how to access your Snowflake account identifiers ↗](#)
+Not sure where to find these in Snowflake? Use the SQL query shown above to retrieve all required identifiers.
 :::
 
 #### 2. Warehouse Compute Sizing
@@ -144,7 +144,7 @@ Choose the **Snowflake Warehouse size** DeliveryHub should use for two distinct 
 | **Backfill Loading** | Full historical data loads, typically larger in scope and compute demand |
 
 :::info
-In Standard setup, DeliveryHub pre-populates these values with sensible defaults. You can accept the defaults or adjust them based on your data volume and performance requirements. [Learn more about choosing the right scaling strategy for your use case ↗](#)
+In Standard setup, DeliveryHub pre-populates these values with sensible defaults. You can accept the defaults or adjust them based on your data volume and performance requirements.
 :::
 
 #### 3. Save Your Configuration
@@ -162,7 +162,7 @@ After running the script, provide the following details in the DeliveryHub app:
 Enter your **Snowflake Organization name**, **Account name** (formatted as `org_name.account_name`), and **Account locator**.
 
 :::tip
-Not sure where to find these? [Learn how to access your Snowflake account identifiers ↗](#)
+Not sure where to find these? Use the SQL query shown in this guide to retrieve your identifiers.
 :::
 
 #### 2. Storage Integration Details
@@ -196,4 +196,4 @@ Once all fields are filled in and verified, click **Save** to complete the sourc
 With your Snowflake source successfully configured, you're ready to unlock the full power of DeliveryHub. From here, you can:
 
 - **Add the source to a Share** to begin securely distributing data to your consumers.
-- **Start syncing HubHouse Tables** and defining **Data Products** to power your data delivery workflows.
+- **Add the source to a Share** and create transfers to power your data delivery workflows.

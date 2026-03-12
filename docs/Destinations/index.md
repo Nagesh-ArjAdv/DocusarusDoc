@@ -9,13 +9,13 @@ import DestinationsHero from '@site/src/components/DestinationsHero';
 
 # Destinations
 
-At [**DeliveryHub**](#), a destination is more than just an endpoint — it's a [**fully managed, enterprise-grade environment**](#) built specifically for your data, your organization, and your consumers.
+At **DeliveryHub**, a destination is more than just an endpoint — it's a **fully managed, enterprise-grade environment** built specifically for your data, your organization, and your consumers.
 
 <DestinationsHero />
 
-When you create a destination, DeliveryHub instantly spins up a [**dedicated, secure, and completely isolated instance**](#) of your chosen platform — configured, optimized, and ready to go. No prior accounts. No existing relationships with third-party platforms. No infrastructure headaches. DeliveryHub handles everything behind the scenes so you can focus on what matters: [**getting data to where it needs to be, fast.**](#)
+When you create a destination, DeliveryHub instantly spins up a **dedicated, secure, and completely isolated instance** of your chosen platform — configured, optimized, and ready to go. No prior accounts. No existing relationships with third-party platforms. No infrastructure headaches. DeliveryHub handles everything behind the scenes so you can focus on what matters: **getting data to where it needs to be, fast.**
 
-And for those who prefer full control? DeliveryHub also supports [**direct writes to external destinations**](#) — platforms that you or your consumers already manage — giving you the flexibility to work the way you want.
+And for those who prefer full control, DeliveryHub also supports **direct writes to external destinations** — platforms that you or your consumers already manage — giving you the flexibility to work the way you want.
 
 ---
 

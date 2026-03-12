@@ -40,6 +40,16 @@ A data share defines the business and operational context for data delivery:
 
 ## Start here
 
+If you are setting up a share for the first time, use [Create and Manage Data Shares](./create-and-manage-share.md) as your primary step-by-step guide.
+
+Recommended path:
+
+1. Configure a source connection.
+2. Create a share and add optional consumer details.
+3. Pick source and destination.
+4. Create the first transfer.
+5. Monitor runs and validate delivered data.
+
 ## Day-2 operations
 
 In the Shares workspace, you can typically:

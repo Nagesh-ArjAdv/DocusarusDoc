@@ -17,8 +17,8 @@ The CLI is not the only option. Any Amazon S3-compatible client can be used to a
 
 Ensure the following before attempting to access a data transfer:
 
-- **DeliveryHub Transfers** — The data transfer must have completed, and the consuming identity must have been granted access in DeliveryHub. See the [Amazon S3 destination guide](#) for setup instructions.
-- **DeliveryHub Hubhouse** — At least one Data Product must have been fulfilled to the destination.
+- **DeliveryHub Transfers** — The data transfer must have completed, and the consuming identity must have been granted access in DeliveryHub. See the [Amazon S3 destination guide](/docs/Destinations/Amazon-s3/deliveryhub-managed-s3-bucket-setup-guide) for setup instructions.
+- **Managed destination workflows** — At least one managed delivery must have completed to the destination.
 - **AWS CLI** — If using command-line access, the AWS CLI must be installed on your machine.
 
 <Admonition type="note" title="IAM Policy Requirements">
@@ -164,12 +164,12 @@ The `--request-payer requester` flag is only needed when **Requester Pays** was 
 
 ---
 
-## Accessing Data Products via Hubhouse Fulfillment
+## Accessing data via managed destination workflows
 
-1. Navigate to the Data Fulfillment list page and select the relevant Data Consumer.
-2. Once a fulfillment has completed, click **Access Data**.
+1. Navigate to the managed destination workflow entry and select the relevant consumer record.
+2. Once delivery has completed, click **Access Data**.
 3. Use the copy icon to share the access details with the consumer. The CLI steps from the Transfers section above also apply here.
 
 <Admonition type="note">
-When using Hubhouse Data Fulfillment, DeliveryHub generates individual paths for each fulfilled Data Product, rather than pointing to a single shared bucket location.
+When using managed destination workflows, DeliveryHub may generate individual paths for each delivered dataset rather than pointing to a single shared bucket location.
 </Admonition>

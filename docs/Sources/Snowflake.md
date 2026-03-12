@@ -7,7 +7,7 @@ title: Snowflake
   <img src="\img\data-source-flow-snowflake.svg" alt="DeliveryHub Platform" />
 </div>
 
-Extract data from your Snowflake data warehouse into Hubhouse Tables.
+Extract data from your Snowflake data warehouse and use it in DeliveryHub source workflows.
 ## <span style={{color: 'var(--ifm-color-primary)'}}>Key Features</span>
 
 | Feature | Benefit |
@@ -22,7 +22,7 @@ Extract data from your Snowflake data warehouse into Hubhouse Tables.
 ## <span style={{color: 'var(--ifm-color-primary)'}}>Data Flow</span>
 
 ```
-Snowflake → OAuth Login → SQL Query → DeliveryHub → Hubhouse Table → Data Products
+Snowflake → OAuth Login → SQL Query → DeliveryHub Source → Share / Transfer
 ```
 
 ---
@@ -49,7 +49,7 @@ Snowflake → OAuth Login → SQL Query → DeliveryHub → Hubhouse Table → D
 
 ## <span style={{color: 'var(--ifm-color-primary)'}}>Common Use Cases</span>
 
-- **Analytics Export** — Query aggregated dashboards and sync to Hubhouse
+- **Analytics Export** — Query aggregated dashboards and deliver results to downstream destinations
 - **Multi-Warehouse Consolidation** — Combine data from multiple Snowflake accounts
 - **Incremental Syncs** — Extract new/modified rows on a schedule
 - **Data Enrichment** — Join Snowflake tables with cloud storage sources

@@ -44,7 +44,7 @@ SFTP is ideal for secure file transfer from legacy systems, on-premise servers, 
     <span className="feature-icon">📁</span>
     <div>
       <strong>File-Based Integration</strong>
-      <p>Pull structured files (CSV, Parquet, JSON) from SFTP servers directly into Hubhouse.</p>
+      <p>Pull structured files (CSV, Parquet, JSON) from SFTP servers directly into DeliveryHub source workflows.</p>
     </div>
   </div>
   <div className="feature-item">

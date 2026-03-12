@@ -5,7 +5,7 @@ title: Google BigQuery
 import Admonition from '@theme/Admonition';
 
 # Google BigQuery
-Extract data from BigQuery using SQL queries and ingest into Hubhouse Tables.
+Extract data from BigQuery using SQL queries and use the results in DeliveryHub source workflows.
 <div className="hero-image">
   <img src="\img\data-source-flow-bigquery.svg" alt="DeliveryHub Platform" />
 </div>
@@ -26,7 +26,7 @@ Extract data from BigQuery using SQL queries and ingest into Hubhouse Tables.
 ## <span style={{color: 'var(--ifm-color-primary)'}}>Data Flow</span>
 
 ```
-BigQuery → SQL Query → Service Account → DeliveryHub → Hubhouse Table → Data Products
+BigQuery → SQL Query → Service Account → DeliveryHub Source → Share / Transfer
 ```
 
 ---

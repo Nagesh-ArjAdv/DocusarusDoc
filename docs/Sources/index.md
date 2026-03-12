@@ -15,7 +15,7 @@ import ThemedImage from '@theme/ThemedImage';
 
 <Admonition type="info" icon="📥" title="Connect Once, Reuse Everywhere">
 **Sources** are how data first enters DeliveryHub.  
-You connect operational systems, files, and platforms to create **Hubhouse Tables** that power Data Products and downstream fulfillment.
+You connect operational systems, files, and platforms so they can be used in shares and delivery workflows.
 </Admonition>
 
 <div style={{textAlign: 'center', margin: '2rem 0'}}>
@@ -40,7 +40,7 @@ A source is any external system that DeliveryHub can read from, such as:
 - SaaS applications
 - Event streams or logs
 
-Once connected, DeliveryHub ingests data from these systems into Hubhouse, where it becomes the foundation for Hubhouse Tables and Data Products.
+Once connected, DeliveryHub can use these systems as the source for shares, transfers, and destination delivery.
 
 ---
 
@@ -72,14 +72,14 @@ Once connected, DeliveryHub ingests data from these systems into Hubhouse, where
         <span className="feature-icon">❄️</span>
         <div>
           <strong>Analytic Warehouses</strong>
-          <p>Pull from existing analytics systems to unify metrics in Hubhouse.</p>
+          <p>Pull from existing analytics systems for downstream delivery and consumer access.</p>
         </div>
       </div>
       <div className="feature-item">
         <span className="feature-icon">🗄</span>
         <div>
           <strong>Operational Datastores</strong>
-          <p>Mirror key tables into Hubhouse without impacting transactional workloads.</p>
+          <p>Read key tables without adding custom extraction pipelines to transactional workloads.</p>
         </div>
       </div>
     </div>
@@ -110,7 +110,7 @@ Once connected, DeliveryHub ingests data from these systems into Hubhouse, where
 ## How Source Connections Work
 
 ```text
-Source System → DeliveryHub Ingestion → Hubhouse Tables → Data Products → Destinations
+Source System → DeliveryHub Source Connection → Share / Transfer → Destination
 ```
 
 <div className="workflow-steps">
@@ -121,11 +121,11 @@ Source System → DeliveryHub Ingestion → Hubhouse Tables → Data Products �
 2. **📂 Select Data to Ingest**  
    Choose buckets, folders, or tables and define how DeliveryHub should interpret them.
 
-3. **🏗 Create Hubhouse Tables**  
-   Map source data into modeled Hubhouse Tables that are ready for analytics and delivery.
+3. **⚙ Configure Delivery**  
+  Use the source in a share and define the transfer behavior that matches your delivery pattern.
 
-4. **🚀 Power Data Products & Fulfillment**  
-   Use those tables to build Data Products and configure fulfillment to downstream destinations.
+4. **🚀 Deliver to Destinations**  
+  Run transfers to the destinations your consumers or internal teams need.
 
 </div>
 
@@ -135,4 +135,4 @@ Source System → DeliveryHub Ingestion → Hubhouse Tables → Data Products �
 
 - [Amazon S3](/docs/Sources/Amazon-s3)
 
-More sources are on the roadmap. The overall experience is the same: **connect once, centralize in Hubhouse, and reuse across all your Data Products and destinations**.
+More sources are on the roadmap. The overall experience is the same: **connect once, configure delivery, and reuse sources across shares and destinations**.

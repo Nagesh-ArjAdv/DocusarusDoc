@@ -12,7 +12,7 @@ import Admonition from '@theme/Admonition';
 
 <div className="hero-banner">
   <h2>Connect Azure Blob Storage to DeliveryHub</h2>
-  <p className="hero-sub">Secure, scalable ingestion from Azure containers into Hubhouse Tables.</p>
+  <p className="hero-sub">Secure, scalable ingestion from Azure containers into DeliveryHub.</p>
 </div>
 
 <Admonition type="info" icon="☁️" title="Quick summary">

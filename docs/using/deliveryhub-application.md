@@ -44,20 +44,14 @@ Build and operate data pipelines inside shares:
 
 - Select source objects/paths
 - Configure transfer patterns and destination options
-- Set globs for file sources
-- View schema and override data types
-- Configure backfill segmentation where supported
-- Set sync preferences and schedules
+- Schedule and monitor runs
+- Review logs and transfer outcomes
 
 See [What are DeliveryHub Transfers?](/docs/transfers/what-is-deliveryhub-transfers).
 
-### Hubhouse
+### Managed destination workflows
 
-Create and operate centralized data assets:
-
-- Hubhouse Tables
-- Data Products
-- Data Fulfillment
+Some environments may also support managed destination setup and consumer access workflows.
 
 Use destination-specific setup and access guides under [Destinations](/docs/Destinations/).
 

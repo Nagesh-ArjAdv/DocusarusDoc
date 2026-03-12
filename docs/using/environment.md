@@ -23,7 +23,7 @@ Depending on your account configuration, the Environment page can include:
 - Source/destination integration settings
 - Privacy or data-deletion request controls
 - Delivery default preferences
-- Hubhouse fulfillment default preferences
+- Managed delivery default preferences
 
 ## Account and API information
 
@@ -64,9 +64,9 @@ Set organization-level defaults that pre-populate new transfer configurations, s
 
 These defaults help standardize setup and reduce repetitive configuration.
 
-## Hubhouse delivery defaults
+## Managed delivery defaults
 
-If Hubhouse is enabled, similar default controls may exist for Data Fulfillment behavior so teams can apply consistent delivery policies across products and consumers.
+Some environments may expose additional defaults for managed destination delivery behavior so teams can apply consistent delivery policies across consumers.
 
 ## Best practices
 

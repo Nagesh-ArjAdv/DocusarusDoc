@@ -15,7 +15,7 @@ In this model, DeliveryHub provisions and manages the destination bucket infrast
 Before setup, confirm the following:
 
 - For Transfers: a share has been created.
-- For Hubhouse Data Fulfillment: the feature is enabled in your environment.
+- For managed destination workflows: the feature is enabled in your environment.
 - You have one or more Google principals ready for access configuration:
 	- Google Account
 	- Google Group
@@ -59,14 +59,14 @@ Important behavior:
 - This setting is effectively immutable for an active share.
 - To change it, archive the share and create a new one with the desired setting.
 
-## Setup via Data Consumers (Hubhouse)
+## Setup via managed destination workflow
 
 1. Create or open a Data Consumer record.
 2. Choose **Google Cloud Storage** as destination.
 3. Select the destination region.
 4. Choose principal type (Google Account, Group, or Service Account).
 5. Enter principal email and save access credentials.
-6. Complete setup and begin fulfilling Data Products.
+6. Complete setup and begin delivering data through the managed destination workflow.
 
 ## Revoking Access
 

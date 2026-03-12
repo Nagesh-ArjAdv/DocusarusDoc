@@ -1,6 +1,6 @@
 ---
-id : deliveryhub-managed-application-setup-guide
-Title : deliveryhub managed application setup guide
+id: deliveryhub-managed-application-setup-guide
+title: DeliveryHub managed application setup guide
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -28,7 +28,7 @@ This method is recommended for:
 ## Prerequisites
 
 <Admonition type="info" title="Environment requirement">
-For Data Fulfillment in DeliveryHub, this feature must be enabled in your environment.
+For managed destination workflows in DeliveryHub, this feature must be enabled in your environment.
 </Admonition>
 
 <Admonition type="info" title="Transfers requirement">
@@ -79,7 +79,7 @@ After configuring the destination and selecting a source, you can create a trans
 
 ---
 
-## Setup via Data Consumers in DeliveryHub
+## Setup via managed destination workflow in DeliveryHub
 
 1. Create a new Data Consumer  
 2. Enter required details  
@@ -100,4 +100,4 @@ Access is now successfully configured.
 
 ## Next Steps
 
-After destination setup is complete, you can begin fulfilling Data Products for your Data Consumer using DeliveryHub.
+After destination setup is complete, you can begin delivering data for the configured consumer using DeliveryHub.

@@ -53,7 +53,7 @@ A share is the container for your source, destination, transfer settings, and ru
 2. Choose the source you configured in Step 2.
 3. Save your selection.
 
-For more detail on share setup, see Create and Manage Data Shares.
+For more detail on share setup, see [Create and Manage Data Shares](../Data%20Share/create-and-manage-share.md).
 
 ## Step 5: Choose destination and access setup
 
@@ -109,7 +109,7 @@ Once the first transfer is successful, expand by:
 
 ## Next steps
 
-- Read Create and Manage Data Shares for the full share lifecycle.
+- Read [Create and Manage Data Shares](../Data%20Share/create-and-manage-share.md) for the full share lifecycle.
 - Read [What are DeliveryHub Transfers?](/docs/transfers/what-is-deliveryhub-transfers) for transfer concepts and configuration scope.
 - Use [Sources](/docs/Sources/) to find connector-specific setup guides.
 - Use [Destinations](/docs/Destinations/) to find destination setup and access guides.
