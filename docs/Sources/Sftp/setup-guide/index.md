@@ -140,5 +140,3 @@ Once your SFTP source is successfully configured, you can:
 ## <span style={{color: 'var(--ifm-color-primary)'}}>Related Resources</span>
 
 - [SFTP Overview](/docs/Sources/Sftp) — Features and limitations
-- [What is a Hubhouse Table](/docs/hubhouse/what-is-a-hubhouse-table) — Learn about Hubhouse Tables
-- [What are Data Products](/docs/hubhouse/what-are-data-products) — Build and deliver data products

@@ -93,4 +93,3 @@ Once successfully configured, you can add the source to a Share, choose Destinat
 
 - [Google Cloud Storage Overview](/docs/Sources/Google-cloud-storage) — Features and capabilities
 - [GCP IAM Permissions Reference](https://cloud.google.com/iam/docs/permissions-reference) — Full permission details
-- [What is a Hubhouse Table](/docs/hubhouse/what-is-a-hubhouse-table) — Learn about Hubhouse Tables

@@ -55,10 +55,6 @@ Destination support for mirror vs append behavior can vary. Check destination-sp
 
 See:
 
-- [Retry Mechanism](/docs/transfers/retry-mechanism)
-- [DeliveryHub Transfer Backfill](/docs/transfers/deliveryhub-transfer-backfill)
-- [Sync Preferences Schedule](/docs/transfers/sync-preferences-schedule)
-
 ## Related guides
 
 - [What are DeliveryHub Transfers?](/docs/transfers/what-is-deliveryhub-transfers)

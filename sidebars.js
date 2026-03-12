@@ -190,9 +190,8 @@ module.exports = {
 
     {
       type: 'category',
-      label: 'Quick Starts',
+      label: 'Quick Start',
       items: [
-        'quickstarts/hubhouse-quickstart',
         'quickstarts/transfers-quickstart',
       ],
     },

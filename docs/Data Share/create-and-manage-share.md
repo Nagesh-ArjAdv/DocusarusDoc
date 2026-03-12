@@ -130,5 +130,3 @@ Archived shares can typically be restored within a retention window; permanent d
 
 - [Transfers Quickstart](/docs/quickstarts/transfers-quickstart)
 - [What are DeliveryHub Transfers?](/docs/transfers/what-is-deliveryhub-transfers)
-- [Sync Preferences and Schedule](/docs/transfers/sync-preferences-schedule)
-- [Auto Revoking Access](/docs/transfers/auto-revoking-access)

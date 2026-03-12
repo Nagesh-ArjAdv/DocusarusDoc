@@ -28,8 +28,6 @@ Manage share lifecycle and transfer entry points:
 - Create and manage transfers
 - Review transfer logs
 
-See [Create and Manage Share](/docs/shares/create-and-manage-share).
-
 ### Data Sources
 
 Configure and maintain source connectivity:
@@ -46,10 +44,10 @@ Build and operate data pipelines inside shares:
 
 - Select source objects/paths
 - Configure transfer patterns and destination options
-- Set [globs](/docs/transfers/setting-globs) for file sources
-- [View schema and override data types](/docs/transfers/view-schema-override-types)
-- Configure [backfill segmentation](/docs/transfers/setting-backfill-segmentation) where supported
-- Set [sync preferences and schedules](/docs/transfers/sync-preferences-schedule)
+- Set globs for file sources
+- View schema and override data types
+- Configure backfill segmentation where supported
+- Set sync preferences and schedules
 
 See [What are DeliveryHub Transfers?](/docs/transfers/what-is-deliveryhub-transfers).
 
@@ -61,7 +59,7 @@ Create and operate centralized data assets:
 - Data Products
 - Data Fulfillment
 
-See [What is Hubhouse](/docs/hubhouse/what-is-hubhouse) and [Hubhouse Quickstart](/docs/quickstarts/hubhouse-quickstart).
+Use destination-specific setup and access guides under [Destinations](/docs/Destinations/).
 
 ### Environment and Administration
 
@@ -86,6 +84,5 @@ For fast onboarding, see [Transfers Quickstart](/docs/quickstarts/transfers-quic
 ## Related guides
 
 - [Data Sources](/docs/using/data-sources)
-- [Create and Manage Share](/docs/shares/create-and-manage-share)
 - [What are DeliveryHub Transfers?](/docs/transfers/what-is-deliveryhub-transfers)
-- [Hubhouse Quickstart](/docs/quickstarts/hubhouse-quickstart)
+- [Transfers Quickstart](/docs/quickstarts/transfers-quickstart)

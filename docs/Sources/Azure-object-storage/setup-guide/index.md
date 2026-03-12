@@ -138,5 +138,3 @@ az role assignment create \
 ## <span style={{color: 'var(--ifm-color-primary)'}}>Related Resources</span>
 
 - [Azure Object Storage Overview](/docs/Sources/Azure-object-storage) — Features and capabilities
-- [What is a Hubhouse Table](/docs/hubhouse/what-is-a-hubhouse-table) — Learn about tables
-- [What are Data Products](/docs/hubhouse/what-are-data-products) — Build and deliver data products

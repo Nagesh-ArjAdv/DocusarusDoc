@@ -5,7 +5,9 @@ title: Transfers Quickstart
 
 # Transfers Quickstart
 
-This guide walks you through creating your first **DeliveryHub Transfer** from source setup to successful delivery.
+This guide walks you through the fastest supported path to your first **DeliveryHub Transfer**, from source setup to successful delivery in a destination.
+
+Use this page as the main onboarding flow for DeliveryHub when your goal is to move data from a configured source into a configured destination.
 
 ## Before you begin
 
@@ -14,6 +16,8 @@ Make sure you have:
 - Access to a DeliveryHub environment
 - Permissions to configure at least one [source](/docs/Sources/) and one [destination](/docs/Destinations/)
 - Credentials or cloud permissions required by your selected systems
+
+For background concepts, see [What are DeliveryHub Transfers?](/docs/transfers/what-is-deliveryhub-transfers).
 
 ## Step 1: Sign in to DeliveryHub
 
@@ -32,19 +36,24 @@ Some source connectors require additional cloud IAM or network allow-list setup.
 Confirm prerequisites before starting your source configuration.
 :::
 
+If you need connector-specific setup help, start in [Sources](/docs/Sources/).
+
 ## Step 3: Create a share
 
 1. Open **Shares**.
 2. Click **Create Share**.
 3. Optionally add a name and description.
 
-For detailed options, see [Create and Manage Share](/docs/shares/create-and-manage-share).
+A share is the container for your source, destination, transfer settings, and run history.
+
 
 ## Step 4: Choose the share source
 
 1. Select **Pick Source**.
 2. Choose the source you configured in Step 2.
 3. Save your selection.
+
+For more detail on share setup, see Create and Manage Data Shares.
 
 ## Step 5: Choose destination and access setup
 
@@ -65,7 +74,10 @@ If your workflow includes external consumers, add a consumer organization for id
 3. Configure transfer behavior (pattern, schedule, and options).
 4. Review and start the transfer.
 
-For transfer concepts and behavior, see [What are DeliveryHub Transfers?](/docs/transfers/what-is-deliveryhub-transfers).
+Common examples:
+
+- Use [File Storage to Cloud](/docs/transfers/file-storage-to-cloud) when loading files into a warehouse destination.
+- Use [File Storage to File Storage](/docs/transfers/file-storage-to-file-storage) when replicating files between storage systems.
 
 ## Step 8: Monitor transfer status
 
@@ -74,7 +86,8 @@ Track progress from the transfer details page, including run status and retry ac
 - Use logs to identify where a run is in progress or why a run failed.
 - Use retry controls where available.
 
-See [Retry Mechanism](/docs/transfers/retry-mechanism) for details.
+You can also monitor run state and share health from the Shares workspace.
+
 
 ## Step 9: Validate delivered data
 
@@ -94,4 +107,10 @@ Once the first transfer is successful, expand by:
 - Creating additional shares for new consumers
 - Running a historical load when needed
 
-For historical sync setup, see [DeliveryHub Transfer Backfill](/docs/transfers/deliveryhub-transfer-backfill).
+## Next steps
+
+- Read Create and Manage Data Shares for the full share lifecycle.
+- Read [What are DeliveryHub Transfers?](/docs/transfers/what-is-deliveryhub-transfers) for transfer concepts and configuration scope.
+- Use [Sources](/docs/Sources/) to find connector-specific setup guides.
+- Use [Destinations](/docs/Destinations/) to find destination setup and access guides.
+

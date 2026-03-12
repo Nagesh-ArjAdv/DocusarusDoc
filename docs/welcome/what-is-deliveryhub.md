@@ -189,5 +189,5 @@ Data is pulled directly from your source at execution time.
 ---
 
 <Admonition type="tip" title="Ready to get started?">
-Check out our [Quick Start Guide](/docs/quickstart) to begin delivering data in minutes.
+Check out our [Transfers Quickstart](/docs/quickstarts/transfers-quickstart) to begin delivering data in minutes.
 </Admonition>

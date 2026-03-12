@@ -18,8 +18,6 @@ import ThemedImage from '@theme/ThemedImage';
 You connect operational systems, files, and platforms to create **Hubhouse Tables** that power Data Products and downstream fulfillment.
 </Admonition>
 
-
-
 <div style={{textAlign: 'center', margin: '2rem 0'}}>
   <ThemedImage
     alt="Data source to DeliveryHub flow"

@@ -7,7 +7,7 @@ title: Data Sources
 
 A data source in DeliveryHub is a configured connection to where your provider data lives, such as cloud object storage or a cloud data warehouse.
 
-Data sources are used to power [Shares](/docs/shares/create-and-manage-share), [Transfers](/docs/transfers/what-is-deliveryhub-transfers), and Hubhouse workflows.
+Data sources are used to power Shares, [Transfers](/docs/transfers/what-is-deliveryhub-transfers), and Hubhouse workflows.
 
 ## Overview
 
@@ -84,7 +84,6 @@ If a source is failing:
 
 ## Related guides
 
-- [Create and Manage Share](/docs/shares/create-and-manage-share)
 - [What are DeliveryHub Transfers?](/docs/transfers/what-is-deliveryhub-transfers)
 - [Sources](/docs/Sources/)
 - [Destinations](/docs/Destinations/)

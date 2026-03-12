@@ -101,5 +101,3 @@ You can scope these permissions to specific buckets and prefixes using IAM polic
 ## Related Docs
 
 - [Sources in DeliveryHub](/docs/Sources/)
-- [What is a Hubhouse Table](/docs/hubhouse/what-is-a-hubhouse-table)
-- [What are Data Products](/docs/hubhouse/what-are-data-products)

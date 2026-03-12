@@ -34,6 +34,3 @@ Think of DeliveryHub as the courier: it picks up data where it lives, normalizes
 ## Related guides
 
 - [Transfers Quickstart](/docs/quickstarts/transfers-quickstart)
-- [DeliveryHub Transfer Backfill](/docs/transfers/deliveryhub-transfer-backfill)
-- [Retry Mechanism](/docs/transfers/retry-mechanism)
-- [Sync Preferences and Schedule](/docs/transfers/sync-preferences-schedule)

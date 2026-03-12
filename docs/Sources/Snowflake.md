@@ -64,4 +64,4 @@ Snowflake → OAuth Login → SQL Query → DeliveryHub → Hubhouse Table → D
 
 ---
 
-[Setup Guide](/docs/Sources/Snowflake/setup-guide) • [Hubhouse Table Guide](/docs/hubhouse/what-is-a-hubhouse-table)
+[Setup Guide](/docs/Sources/Snowflake/setup-guide)

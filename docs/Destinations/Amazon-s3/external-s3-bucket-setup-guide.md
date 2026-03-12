@@ -7,7 +7,6 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import Admonition from '@theme/Admonition';
 
-
 <div className="hero-banner">
   <h2>⚙️ Configure Amazon S3 Write Access</h2>
 </div>
@@ -452,5 +451,3 @@ After entering all required fields and credentials, click OK. You will be redire
 ## Related Resources
 
 - [Amazon S3 as a Source](/docs/Sources/Amazon-s3) - Overview and features
-- [What is a Hubhouse Table](/docs/hubhouse/what-is-a-hubhouse-table) - Learn about Hubhouse Tables
-- [Data Products Guide](/docs/hubhouse/what-are-data-products) - Create data products from your tables

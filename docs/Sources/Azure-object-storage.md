@@ -124,5 +124,4 @@ az role assignment create --assignee ${APP_OBJECT_ID} --role "Storage Blob Deleg
 ## <span style={{color: 'var(--ifm-color-primary)'}}>Related Resources</span>
 
 - [Azure Object Storage Setup Guide](/docs/Sources/Azure-object-storage/setup-guide)
-- [What is a Hubhouse Table](/docs/hubhouse/what-is-a-hubhouse-table)
 - [Network Security Best Practices](/docs/using/environment)

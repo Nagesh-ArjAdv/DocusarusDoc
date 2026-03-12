@@ -66,4 +66,4 @@ WHERE event_timestamp >= TIMESTAMP_SUB(CURRENT_TIMESTAMP(), INTERVAL 7 DAY)
 
 ---
 
-[BigQuery Overview](/docs/Sources/Bigquery) • [Hubhouse Tables](/docs/hubhouse/what-is-a-hubhouse-table)
+[BigQuery Overview](/docs/Sources/Bigquery)

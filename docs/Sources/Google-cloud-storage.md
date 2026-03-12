@@ -107,5 +107,3 @@ Visit [Google Cloud Functions Locations](https://cloud.google.com/functions/loca
 
 - [Google Cloud Storage Setup Guide](/docs/Sources/Google-cloud-storage/setup-guide) — Step-by-step configuration
 - [GCP IAM Permissions Reference](https://cloud.google.com/iam/docs/permissions-reference) — Full permission details
-- [What is a Hubhouse Table](/docs/hubhouse/what-is-a-hubhouse-table) — Learn about Hubhouse Tables
-- [What are Data Products](/docs/hubhouse/what-are-data-products) — Build and deliver data products

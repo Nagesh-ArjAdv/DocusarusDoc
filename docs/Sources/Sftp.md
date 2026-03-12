@@ -112,5 +112,3 @@ For large-scale production workloads, we recommend testing performance and adjus
 ## <span style={{color: 'var(--ifm-color-primary)'}}>Related Resources</span>
 
 - [SFTP Setup Guide](/docs/Sources/Sftp/setup-guide) — Step-by-step configuration
-- [What is a Hubhouse Table](/docs/hubhouse/what-is-a-hubhouse-table) — Learn about Hubhouse Tables
-- [What are Data Products](/docs/hubhouse/what-are-data-products) — Build and deliver data products

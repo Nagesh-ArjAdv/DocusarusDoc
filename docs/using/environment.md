@@ -79,5 +79,4 @@ If Hubhouse is enabled, similar default controls may exist for Data Fulfillment 
 
 - [DeliveryHub Application](/docs/using/deliveryhub-application)
 - [Data Sources](/docs/using/data-sources)
-- [Create and Manage Share](/docs/shares/create-and-manage-share)
 - [What are DeliveryHub Transfers?](/docs/transfers/what-is-deliveryhub-transfers)

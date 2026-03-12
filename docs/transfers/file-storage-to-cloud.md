@@ -108,11 +108,7 @@ DeliveryHub can parse Hive-style folder partitions and load partition values as 
 
 CSV parsing and loading options are applied per destination platform. Defaults are chosen for compatibility and can vary by destination engine.
 
-For schedule and run behavior, see [Sync Preferences Schedule](/docs/transfers/sync-preferences-schedule).
-
 ## Related guides
 
 - [What are DeliveryHub Transfers?](/docs/transfers/what-is-deliveryhub-transfers)
-- [DeliveryHub Transfer Backfill](/docs/transfers/deliveryhub-transfer-backfill)
-- [Setting Globs](/docs/transfers/setting-globs)
 - [File Storage to File Storage](/docs/transfers/file-storage-to-file-storage)

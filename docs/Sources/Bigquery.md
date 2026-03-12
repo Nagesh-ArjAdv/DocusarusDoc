@@ -56,4 +56,4 @@ BigQuery → SQL Query → Service Account → DeliveryHub → Hubhouse Table �
 
 ---
 
-[Setup Guide](/docs/Sources/Bigquery/setup-guide) • [Hubhouse Table Guide](/docs/hubhouse/what-is-a-hubhouse-table)
+[Setup Guide](/docs/Sources/Bigquery/setup-guide)

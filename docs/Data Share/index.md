@@ -40,8 +40,6 @@ A data share defines the business and operational context for data delivery:
 
 ## Start here
 
-- [Create and Manage Data Shares](/docs/shares/create-and-manage-share)
-
 ## Day-2 operations
 
 In the Shares workspace, you can typically:
